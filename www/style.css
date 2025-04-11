@@ -1,0 +1,87 @@
+
+body {
+    background-color: #ed9135;
+    color: rgb(255, 255, 255);
+
+    margin: 0;
+    height: 100vh; /* prend toute la hauteur de la page */
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 40px;
+
+  }
+
+
+
+
+  .container {
+    display: inline-block;
+    
+    justify-content: center;
+    text-align: center;
+
+    
+    /*display: inline-block;*/
+    /*background: #fff;*/
+    /*padding: 20px;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 8px;*/
+  }
+
+
+  .seed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+  }
+
+  .seed2 {
+    /*display: inline-block;*/
+    /*background: #fff;*/
+    /*padding: 20px;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 8px;*/
+
+    background-color: #ffffff00;
+    background: transparent;
+    color: rgb(255, 255, 255);
+
+    border: 3px solid rgb(255, 255, 255);       /* bordure noire */
+    
+
+
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+  }
+
+
+
+  
+button {
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+
+    border: 3px solid rgb(255, 255, 255);       /* bordure noire */
+    
+
+
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+
+
+    /*
+    border-color: red;
+
+    
+    color: rgb(159, 27, 27);
+
+    
+    display: flex;
+    justify-content: center;*/
+    /*gap: 15px;*/
+  }

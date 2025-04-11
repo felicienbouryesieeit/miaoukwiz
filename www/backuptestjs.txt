@@ -1,0 +1,400 @@
+
+let nom = "Alice";
+let allcountriesvar;
+let allcountriesvar2;
+let avancement;
+let currenttable="countries";
+let textevar="translations";
+let currenttableindex=20;
+
+
+const div = document.getElementById("monTexte");
+//let boutontextes = ["ciel", "ciel 2", "ciel 3"];
+
+// Conteneur dans lequel les boutons seront ajoutés
+const container = document.getElementById("button-container");
+
+
+function lancerScriptPHP(iswriting) {
+    //textevar="translations";
+    console.log("one piece");
+    //let textetowrite = textetowrite2;//("é");
+    //let currenttable = currenttable2;
+    fetch("test2.php", {
+        method: "POST", // Ou "GET" selon ton besoin
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: `currenttableindex=${encodeURIComponent(currenttableindex)}&textevar=${encodeURIComponent(textevar)}&iswriting=${encodeURIComponent(iswriting)}&currenttable=${encodeURIComponent(currenttable)}` // Si nécessaire
+    })
+    .then(response => response.text()) // Ou .json() si le PHP renvoie du JSON
+    .then(data => {
+        console.log("data");
+        console.log(data);
+        
+        let data2 = JSON.parse(data);
+        console.log(data2);
+        if (iswriting==0) {
+            
+         /*
+        console.log("jajaja", data[1]);
+        const beginJSON=data;
+        console.log("gunsalute"+beginJSON);
+
+        const parsedData = JSON.parse(beginJSON);
+
+        
+        const parsedData2= JSON.parse(parsedData[0].pawns);
+        
+
+        const splitdata= parsedData2.toString().split(",");
+        
+        
+        
+        const elementnumber = 3;
+        numberofpieces=splitdata.length/elementnumber;
+        for (let i = 0; i < numberofpieces; i++) {
+        var elementnumber2 = (i*elementnumber);
+        beginpawnsarray.push([splitdata[0+elementnumber2],splitdata[1+elementnumber2],splitdata[2+elementnumber2]]);
+        }
+
+        console.log("UR"+(numberofpieces)+"    " +beginpawnsarray);
+        createboard()
+        resetGrid2();
+        */
+    }
+
+
+        
+        
+    })
+    .catch(error => console.error("Erreur:", error));
+
+    
+}
+
+//lancerScriptPHP(0)
+
+
+
+
+function createboard(boutontextes,questiontexte) {
+  
+    container.innerHTML = "";
+  
+    for (let i = 0; i < boutontextes.length; i++) {
+      const bouton = document.createElement("button");
+    
+      //console.log("console " + getallcountries())
+      bouton.textContent = boutontextes[i];
+      bouton.style.margin = "10px";
+      div.textContent = questiontexte;
+    
+      // Action au clic (tu peux changer l'URL ici)
+      bouton.onclick = () => {
+        onclick();
+        
+    };
+    
+      container.appendChild(bouton);
+    
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+  function beginplay() {
+    //getallcountries()
+    //getallcountries();
+    //avancement=0;
+    //readJSON()
+    currenttableindex=0;
+    div.textContent = "boutontextes[i]";
+    createboard(["commencer"],"");//["ciel", "ciel 2", "ciel 3"]
+    
+      
+  }
+  
+  beginplay()
+  
+ function onclick() {
+    //console.log((allcountriesvar.length));
+
+
+    /*
+    const nbProprietes = Object.keys(allcountriesvar);
+
+    const clesUniques = new Set();
+
+    allcountriesvar.forEach(obj => {
+    Object.keys(obj).forEach(cle => clesUniques.add(cle));
+    });
+
+    console.log("Clés uniques :", Array.from(clesUniques));
+    console.log("Nombre de propriétés uniques :", clesUniques.size);
+    
+
+    console.log("Nombre de propriétés :", nbProprietes);
+    
+    console.log("Nombre de propriétés uniques bibi :");*/
+    /*
+    let nombrecles = 0
+    let currentid = 0
+    let index = 0
+    allcountriesvar.forEach(obj => {
+        let currentnombre = Object.keys(obj).length
+        if (nombrecles<currentnombre ) {
+            nombrecles=currentnombre
+            currentid=index
+        }
+        index+=1;
+        }
+        
+    );*/
+    getcountryinformation("translations",10)
+    lancerScriptPHP(3)
+    
+    //console.log("mon bebe"+Object.keys(allcountriesvar[currentid]).length);
+    /*for (let i = 0; i < Object.keys(allcountriesvar[currentid]).length; i++) {
+        console.log(Object.keys(allcountriesvar[currentid])[i]);
+        lancerScriptPHP(2,Object.keys(allcountriesvar[currentid])[i],"pays")
+        //console.log(typeof JSON.stringify(Object.keys(allcountriesvar[currentid])[i]));
+    }*/
+    //// ("é");
+
+
+
+
+    /*
+    for (let i = 0; i < Object.values(allcountriesvar[currentid]).length; i++) {
+        console.log(typeof JSON.stringify(Object.values(allcountriesvar[currentid])[i]));
+    }
+        */
+    
+ }
+
+
+
+
+ function getcountryinformation(textevar2,index2) {
+    currenttable="countries";
+    textevar=textevar2;
+    currenttableindex=index2;
+    lancerScriptPHP(0)
+ }
+/*
+ function readJSON() {
+    fetch('restcountries.json')
+  .then(response => response.json())
+  .then(data => {
+    //        // Affiche tout l'objet JSON
+   
+   //console.log(JSON.stringify(data[0].translations));
+   //return allcountriesvar
+   allcountriesvar=data
+   return JSON.stringify(data[0].translations)
+  })
+  .catch(error => console.error("Erreur : ", error));
+
+  return "non"
+ }*/
+ 
+
+
+
+
+ /*
+ CREATE TABLE pays (
+    id INT AUTO_INCREMENT PRIMARY KEY
+);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style.css */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+
+body {
+    background-color: #ed9135;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+    margin: 0;
+    height: 100vh; /* prend toute la hauteur de la page */
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: center;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 30px;
+
+  }
+
+
+
+  .container {
+    display: inline-block;
+    
+    justify-content: center;
+    text-align: center;
+
+    
+    /*display: inline-block;*/
+    /*background: #fff;*/
+    /*padding: 20px;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 8px;*/
+  }
+
+
+
+  
+button {/*
+    background-color: #009451;
+    color: rgb(159, 27, 27);
+
+    display: flex;
+    justify-content: center;*/
+    /*gap: 15px;*/
+  }
+  
