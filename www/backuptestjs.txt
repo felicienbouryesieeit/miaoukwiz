@@ -398,3 +398,678 @@ button {/*
     /*gap: 15px;*/
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste de Boutons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="seed">
+seed :
+<div class="seed2">
+
+<input type="number" id="seednumber" />
+</div>
+</div>
+
+<div class="container">
+  <div id="monTexte">Mes Boutons</div>
+  <div class="boutons">
+    <div id="button-container"></div>
+  </div>  
+  
+</div>
+
+
+<script type="module" src="test.js"></script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let nom = "Alice";
+let allcountriesvar;
+let allcountriesvar2;
+let currenttable="countries";
+let textevar="translations";
+//let currenttableindex=20;
+
+
+let currentdata="";
+let currentdatalength=0;
+
+
+const div = document.getElementById("monTexte");
+const container = document.getElementById("button-container");
+const champ = document.getElementById("seednumber");
+
+let avancement=0;
+let randomreponsearray=[]
+let randomGenerator = createSeededRandom(42);
+let dernierboutoncliqué=-1;
+let currentsection = 0;
+let currentquestion=0;
+let allcolumns= [
+  [],   
+  []    
+];
+let allsectionsindex=
+[0//géographie
+,1
+,2
+]
+
+
+function lancerScriptPHP(iswriting,allsectionsindex2) {
+    //console.log("one piece");
+    fetch("test2.php", {
+        method: "POST", 
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: `textevar=${encodeURIComponent(textevar)}&iswriting=${encodeURIComponent(iswriting)}&currenttable=${encodeURIComponent(currenttable)}` // currenttableindex=${encodeURIComponent(currenttableindex)}&
+    })
+    .then(response => response.text()) 
+    .then(data => {
+        /*
+        console.log("data");
+        console.log(data);
+        */
+        currentdata = JSON.parse(data);
+        //allcolumns[currentdataindex].splice(currentcolumnsindex, 0, currentdata);
+        //allcolumns[0][0]=currentdata;
+        //console.log("allcolumns.length"+(allcolumns.length-1));
+        //allcolumns.splice(9, 0, []);
+        
+        //allcolumns[9]=[];
+        //console.log(allcolumns.length);
+        //console.log(allcolumns);
+        if (allsectionsindex2>allcolumns.length-1) {
+          allcolumns[allsectionsindex2]=[]
+        }
+        allcolumns[0].push(currentdata)
+        currentdatalength=currentdata.length
+        /*
+        let data2 = JSON.parse(data);
+        console.log(data2);
+        */
+        if (iswriting==0) {
+            
+         
+    }
+
+
+        
+        
+    })
+    .catch(error => console.error("Erreur:", error));
+
+    
+}
+
+
+
+
+
+function createboard(boutontextes,questiontexte) {
+  
+    container.innerHTML = "";
+  
+    for (let i = 0; i < boutontextes.length; i++) {
+      const bouton = document.createElement("button");
+    
+      bouton.textContent = boutontextes[i];
+      bouton.style.margin = "10px";
+      div.textContent = questiontexte;
+    
+      bouton.onclick = () => {
+        //console.log("bouton cliqué : "+i);
+         onclick(i);
+        
+    };
+    
+      container.appendChild(bouton);
+    
+      }
+  }
+
+
+
+
+
+
+
+  function ci() {}
+
+
+  function beginplay() {
+   champ.value=Math.floor(Math.random()*100000000000) ;
+    
+    //beginmostpeople();
+    beginallcolumns();
+    createboard(["commencer"],"");
+
+   
+      
+  }
+  
+  beginplay()
+  
+  function randomdatavalue() {
+    return seededRandomInt(1,currentdatalength-1)
+  }
+
+
+  function beginallcolumns() {
+    getdatainformation("translations",allsectionsindex[0]);
+    getdatainformation("population",allsectionsindex[0]);
+  }
+
+ function onclick(boutonindex) {
+  //console.log(currentdata);
+  console.log("ananas");
+  console.log(allcolumns);
+
+  
+  /*
+  if (avancement==0) {  
+  const valeur = Number(champ.value); // ou parseInt / parseFloat selon le besoin
+  console.log("Nombre saisi :", valeur);
+  randomGenerator = createSeededRandom(valeur);
+ 
+
+  randomreponsearray.push(randomdatavalue())
+  randomreponsearray.push(randomdatavalue())
+}
+    dernierboutoncliqué=boutonindex
+    if (avancement==1) { 
+    console.log("dernier cliqué : "+boutonindex +" pays : "+getcountryname(randomreponsearray[0],currentdata) );
+    answermostpeople();
+    }
+    
+
+    if (avancement>1) { 
+      console.log("population"+ getcountrypeople(randomreponsearray[0],currentdata));
+  }
+  avancement+=1*/
+    //console.log("saucisse"+getcountryname(5,currentdata));
+    /*
+
+
+    if (avancement==0) {
+   //name="age" min="0" max="120" 
+
+   
+   
+   const valeur = Number(champ.value); // ou parseInt / parseFloat selon le besoin
+    console.log("Nombre saisi :", valeur);
+    randomGenerator = createSeededRandom(valeur);
+
+    console.log("current length"+currentdatalength)
+    randomreponsearray.push(randomdatavalue())
+    randomreponsearray.push(randomdatavalue())
+    console.log(randomreponsearray)
+   
+    createboard([getcountryname(randomreponsearray[0],currentdata),getcountryname(randomreponsearray[1],currentdata)],"Quel pays à le plus d'habitants ?");
+    answermostpeople();
+    } else {
+    let currentréponse=-1;
+
+    
+    if (getcountrypeople(randomreponsearray[0],currentdata)>getcountrypeople(randomreponsearray[1],currentdata)) {
+      currentréponse=0;
+    } else {
+      currentréponse=1;
+    }
+
+    console.log("pays 1 : "+getcountrypeople(randomreponsearray[0],currentdata)+"pays 2"+getcountrypeople(randomreponsearray[1],currentdata)+" réponse 0 :"+(getcountrypeople(randomreponsearray[0],currentdata)>getcountrypeople(randomreponsearray[1],currentdata))+" réponse : "+currentréponse + "dernier bouton cliqué : "+dernierboutoncliqué);
+
+
+    let reponsetext = "oui"
+    console.log("hxh")
+    if (currentréponse==dernierboutoncliqué) {
+      reponsetext="gagné";
+    } else {
+      reponsetext="perdu";
+    }
+
+    
+    createboard([getcountrypeople(randomreponsearray[0],currentdata),getcountrypeople(randomreponsearray[1],currentdata)],reponsetext);
+
+
+    
+    
+    }
+    
+    
+    avancement+=1
+    */
+
+
+
+
+    /*
+    if (avancement==0) {
+        createboard([getcountryname(5,currentdata),getcountryname(4,currentdata)],"Quel pays à le plus d'habitants ?");
+        }*/
+
+    
+    
+
+    
+ }
+
+ function getcountryname(i,currentdata2) {
+    //let data2 = JSON.parse(currentdata2);
+    let data3 = JSON.parse(JSON.stringify(currentdata2[i]));
+
+
+    return JSON.parse(data3.translations).fra.common
+ }
+
+ function getcountrypeople(i,currentdata2) {
+    let data3 = JSON.parse(JSON.stringify(currentdata2[i]));
+    
+
+    return JSON.parse(data3.population);
+ }
+
+ function beginsection() {
+  
+  switch (currentsection) {
+    case 0:
+      currenttable="countries";
+
+      switch (currentquestion) {
+        case 0:
+          beginmostpeople();
+          break;
+      }
+
+      break;
+    case 1:
+      console.log("Deux");
+      break;
+    case 2:
+      console.log("Trois");
+      break;
+  }
+
+    
+
+    textevar="id";
+    //lancerScriptPHP(0);
+    
+    
+    
+ }
+
+ function getdatainformation(textevar2,allsectionsindex2) {
+    //currenttable="countries";
+    textevar=textevar2;
+    //currenttableindex=index2;
+    lancerScriptPHP(0,allsectionsindex2)
+ }
+
+
+
+ 	
+
+ function createSeededRandom(seed) {
+   return function() {
+     seed |= 0;
+     seed = (seed + 0x6D2B79F5) | 0;
+     let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+     t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+   };
+ }
+ 
+
+ function seededRandomInt(min, max) {
+   const random = randomGenerator(); // Utilisez une des fonctions ci-dessus
+   return Math.floor(random * (max - min + 1)) + min;
+ }
+ 

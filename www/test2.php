@@ -60,9 +60,9 @@ if ($conn->connect_error) {
 
 $currenttable = $_POST['currenttable'];
 $textevar = $_POST['textevar']; //currenttableindex
-$currenttableindex = $_POST['currenttableindex'];
+$currenttableindex = "u";//$_POST['currenttableindex'];
 
-$result = $conn->query("SELECT " . $textevar . " FROM " . $currenttable . ""); //WHERE id = " . $currenttableindex . "
+$result = $conn->query("SELECT " . $textevar . " FROM " . $currenttable . ""); //WHERE id = " . $currenttableindex . " //" . $textevar . "
 $data = $result->fetch_all(MYSQLI_ASSOC);
 
 echo json_encode($data, JSON_UNESCAPED_UNICODE);
@@ -81,7 +81,7 @@ function tablesize() {
     
     $currenttable = $_POST['currenttable'];
     $textevar = $_POST['textevar']; //currenttableindex
-    $currenttableindex = $_POST['currenttableindex'];
+    $currenttableindex = 'u';//$_POST['currenttableindex'];
     
     $result = $conn->query("SELECT COUNT(*) FROM " . $currenttable . "");
     $data = $result->fetch_all(MYSQLI_ASSOC);
@@ -121,13 +121,12 @@ function filltable(){
 
 
 function connect() {
-    $serveur = "localhost";
-    $utilisateur = "root";
-    $motDePasse = "";
-    $baseDeDonnees = "miaoukwiz";
+    $serveur = 'mysql-boury.alwaysdata.net';
+    $utilisateur = 'boury';
+    $motDePasse = 'kaaris270';
+    $baseDeDonnees = 'boury_miaoukwiz';
     //$conn
     return mysqli_connect($serveur, $utilisateur, $motDePasse, $baseDeDonnees);
-    
 }
 
 ?>

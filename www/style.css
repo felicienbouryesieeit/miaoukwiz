@@ -45,6 +45,7 @@ body {
     /*border: 1px solid #ddd;*/
     /*border-radius: 8px;*/
 
+    
     background-color: #ffffff00;
     background: transparent;
     color: rgb(255, 255, 255);
@@ -56,6 +57,9 @@ body {
     font-family: 'Gabarito', sans-serif;
     font-size: 20px;
     border-radius: 8px;
+
+    align-items: center;       /* alignement vertical */
+    justify-content: center;
   }
 
 
@@ -85,3 +89,46 @@ button {
     justify-content: center;*/
     /*gap: 15px;*/
   }
+
+
+
+.seednumberclass {
+  background-color: #ff000000;
+  color: rgb(255, 255, 255);
+  border: 0px solid rgba(255, 255, 255, 0); 
+  text-align: center;
+  align-items: center;       /* alignement vertical */
+  justify-content: center;
+  font-family: 'Gabarito', sans-serif;
+  font-size: 15px;
+
+
+
+
+
+
+  
+
+  }
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+input[type=number] {
+  border: none;       
+  outline: none;      
+}

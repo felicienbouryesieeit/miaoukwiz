@@ -1,9 +1,9 @@
 <?php
 // Configuration de la base de données
-$host = 'localhost';
-$dbname = 'miaoukwiz';
-$user = 'root';
-$pass = '';
+$host = 'mysql-boury.alwaysdata.net';
+$dbname = 'boury_miaoukwiz';
+$user = 'boury';
+$pass = 'kaaris270';
 $charset = 'utf8mb4';
 
 // Connexion PDO
