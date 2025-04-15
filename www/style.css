@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    background-color: #ed9135;
+    
+
+
+    background-image: url("chaticon.jpg");
+    background-size: 400px;         /* ajuste l'image à la taille de l'écran */
+    background-position: center;    /* centre l'image */
+    /*background-repeat: no-repeat;    évite les répétitions */
+
+
+
     color: rgb(255, 255, 255);
 
     margin: 0;
@@ -13,14 +25,20 @@ body {
 
   }
 
-
+.help{
+  max-width: 600px;
+}
 
 
   .container {
-    display: inline-block;
-    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
+    
 
     
     /*display: inline-block;*/
@@ -30,6 +48,43 @@ body {
     /*border-radius: 8px;*/
   }
 
+
+  .gotobutton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .maintext {
+    font-size: 60px;
+    
+    font-family: "Marvel", sans-serif;
+  }
+  .smalltext {
+    
+    font-size: 17px;
+  }
+
+  .titletext {
+    
+    /* color: rgb(255, 255, 255); */
+
+    border: 3px solid rgb(255, 255, 255);       /* bordure noire */
+    /*max-width: 300px;
+    margin: 0 auto;*/
+
+    /*font-family: 'Gabarito', sans-serif;*/
+    /*border-width: 100px;*/
+    width: 200px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+    
+    align-items: center;       
+    justify-content: center;
+    text-align: center;
+  }
 
   .seed {
     position: fixed;
@@ -102,7 +157,7 @@ button {
   font-family: 'Gabarito', sans-serif;
   font-size: 15px;
 
-
+  
 
 
 
@@ -132,3 +187,9 @@ input[type=number] {
   border: none;       
   outline: none;      
 }
+
+
+
+
+
+

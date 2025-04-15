@@ -3,11 +3,18 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Liste de Boutons</title>
+  <title>Miaoukwiz</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+<img class="image-tourne">
+
+<a href="help.php" class="gotobutton" >
+    <button>Aide</button>
+    </a>
+
 
 <div class="seed">
 seed :
@@ -18,6 +25,7 @@ seed :
 </div>
 
 <div class="container">
+<div id="titre" class="maintext">Miaoukwiz</div>
   <div id="drapeau"></div>
   <div id="monTexte">chargement...</div>
   <div class="boutons">

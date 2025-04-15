@@ -10,11 +10,15 @@ let textevar="translations";
 let currentdata="";
 let currentdatalength=0;
 
+
 const drapeau = document.getElementById("drapeau");
 const div = document.getElementById("monTexte");
 const container = document.getElementById("button-container");
 const champ = document.getElementById("seednumber");
+const titre = document.getElementById("titre");
+
 const img = document.createElement("img");
+
 
 let avancement=0;
 let globalavancement=0;
@@ -312,6 +316,7 @@ function createquestion() {
   
   currentboutoncliqué=boutonindex;
   if (globalavancement==0) {
+    titre.innerHTML = "";
     randomGenerator = createSeededRandom(champ.value);
     //shuffle(randomquestionarray[0]);
     //console.log("array"+shuffle([0,1,1,2,2,3,3]))
@@ -600,6 +605,7 @@ function getcountryflag(i) {
 
 function beginplayafterbutton() {
   avancement=0;
+  
   createboard(["commencer"],"");
 }
 
