@@ -48,6 +48,10 @@ body {
     /*border-radius: 8px;*/
   }
 
+  /*
+  .buttoncontainerclass{
+    max-width: 600px;
+  }*/
 
   .gotobutton {
     position: fixed;
@@ -118,7 +122,9 @@ body {
   }
 
 
-
+.questiontext{
+  font-size: 30px;
+}
   
 button {
     background-color: #ffffff00;

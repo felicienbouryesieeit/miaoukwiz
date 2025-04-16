@@ -28,18 +28,21 @@ let dernierboutoncliqué=-1;
 let currentboutoncliqué=-1;
 let currentsection = 0;
 let currentquestion=1;
-let allcolumnsname= ["translations","population","area","capital","flag_png"];//
+let allcolumnsname= ["translations","population","area","capital","flag_png","*"];//
 let allcolumns= [];
-let randomquestionarray=[[0,1,2,3]];
+let randomquestionarray=[
+  [0,1,2,3]//geographie
+  ,[4],[4]
+];
+let questionarraylimit=[
+  3
+,1,1
+];
 let currentscore=0;
+let customtablelist=[[5,"quiz_histoire"]]
 
 
 
-let allsectionsindex=
-[0//géographie
-,1
-,2
-]
 
 
 
@@ -130,7 +133,9 @@ function createboard(boutontextes,questiontexte) {
       const bouton = document.createElement("button");
     
       bouton.textContent = boutontextes[i];
-      bouton.style.margin = "10px";
+      bouton.style.margin = "10px 16vw"; 
+      //bouton.style.flex-direction: "column";
+      //bouton.style.width = "600px";
       
     
       bouton.onclick = () => {
@@ -150,7 +155,7 @@ function createboard(boutontextes,questiontexte) {
 
 
 
-  function ci() {}
+  //function ci() {}
 
 
   function beginplay() {
@@ -182,31 +187,53 @@ function createboard(boutontextes,questiontexte) {
       if (index==(allcolumnsname.length-1)) {
         canlaunchgame=true;
       }
+
+      setcurrenttable(index);
+
       getdatainformation(columnname,index); //"translations","population","area"
   
       
     });
 
+    
+  }
+
+
+  function createrandomquestionarray4columns(columnindex) {
+    let randomindex=seededRandomInt(0,allcolumns[columnindex].length-1);
+    
+
+    let allarray = [
+      [
+      getquestion(randomindex,columnindex)
+      ],[
+      getbonnereponse(randomindex,columnindex),
+      getmauvaisereponses(randomindex,columnindex)[0],
+      getmauvaisereponses(randomindex,columnindex)[1],
+      getmauvaisereponses(randomindex,columnindex)[2]
+      ]
+    ];
+
+    
+
+    return allarray;
+
     /*
-    getdatainformation(,1);
-    canlaunchgame=true;
-    getdatainformation(,2);*/
+    let randomindex=seededRandomInt(0,(allcolumns[currenttableindex].length-1))
+    */
   }
 
 
 
 
 
-
-
-
-  function createrandomreponsearray(arraysize,columnindex) {
+  function createrandomreponsearray1column(arraysize,columnindex) {
     randomreponsearray.length = 0;
     //seededRandomInt(1,allcolumns[i].length-1)
     let randomarray=[];
-    for (let i = 0; i < allcolumns[columnindex].length-2; i++) {
+    for (let i = 0; i < allcolumns[columnindex].length-1; i++) {
       
-      randomarray.push(i+1)
+      randomarray.push(i)
     }
     shuffle(randomarray);
 
@@ -240,68 +267,103 @@ function shuffle(randomquestionarray1) {
     return randomquestionarray2;
 }
 
-function create4reponses(columnindex) {
-  createrandomreponsearray(4,columnindex);
+function create4reponses1column(columnindex) {
+  createrandomreponsearray1column(4,columnindex);
   //let randomreponse=seededRandomInt(0,3);
+  create4reponses2();
+  //console.log("oui"+randomreponsearray);
+
+}
+
+function create4reponses2() {
   let randomreponse=randomreponsearray[0];
   //console.log("oui"+randomreponsearray);
   randomreponsearray=shuffle(randomreponsearray);
   randomreponsearray.push(randomreponse);
-  //console.log("oui"+randomreponsearray);
+}
+
+
+function create4reponses4column(columnindex) {
+  
+  
+  
+  let allarray = createrandomquestionarray4columns(columnindex);
+  
+  randomreponsearray=allarray[1];
+
+  //console.log(randomreponsearray);
+  create4reponses2();
+
+  return allarray;
+
+  
 
 }
+
 function createquestion() {
   
   //console.log("currentquestion : "+randomquestionarray[0][globalavancement]);
   
-  currentquestion = randomquestionarray[0][globalavancement];
-  // currentquestion=3;
+  currentquestion = randomquestionarray[currentsection][(globalavancement)];
+  //currentquestion=4;
+  console.log("ananas : "+currentquestion+" avancement : "+globalavancement)
   switch (currentquestion) {
     case 0:
       
       //allcolumns
-      createrandomreponsearray(2,1);
+      createrandomreponsearray1column(2,1);
       createboard([getcountryname(randomreponsearray[0]),getcountryname(randomreponsearray[1])],"Quel pays a le plus d'habitants ?");
       
       
       break;
+
+
     case 1:
       
-      createrandomreponsearray(2,2);
+      createrandomreponsearray1column(2,2);
       createboard([getcountryname(randomreponsearray[0]),getcountryname(randomreponsearray[1])],"Quel pays a la plus grande superficie ?");
       
       break;
+
+
     case 2:
       
-      create4reponses(3);
-      /*console.log("dodo"+randomreponsearray+" "+getcountrycapital(randomreponse));
-      let randomreponsearray2=randomreponsearray;
-      
-      randomreponsearray=shuffle(randomreponsearray);
-      
-      console.log("dodo bis "+randomreponsearray2);
-      console.log("dodo bis bis  "+" "+randomreponsearray2[0]+" "+getcountrycapital(randomreponsearray2[0]));
-      console.log("dodo"+randomreponsearray+" "+getcountrycapital(randomreponse));*/
+      create4reponses1column(3);
       createboard([getcountrycapital(randomreponsearray[0]),getcountrycapital(randomreponsearray[1]),getcountrycapital(randomreponsearray[2]),getcountrycapital(randomreponsearray[3])],'Quel est la capitale de ce pays: "'+getcountryname(randomreponsearray[4])+'" ?');
       
       break;
+
+
       case 3:
       
-      create4reponses(4);
-      //createrandomreponsearray(4,3);
-      //let randomreponse=seededRandomInt(0,3);
-      /*console.log("dodo"+randomreponsearray+" "+getcountrycapital(randomreponse));
-      let randomreponsearray2=randomreponsearray;
-      
-      randomreponsearray=shuffle(randomreponsearray);
-      
-      console.log("dodo bis "+randomreponsearray2);
-      console.log("dodo bis bis  "+" "+randomreponsearray2[0]+" "+getcountrycapital(randomreponsearray2[0]));
-      console.log("dodo"+randomreponsearray+" "+getcountrycapital(randomreponse));*/
-      //console.log("kawaine");
-      //console.log(getcountryflag(0)); //randomreponsearray[0]
+      create4reponses1column(4);
       createimage(getcountryflag(randomreponsearray[4]));
       createboard([getcountryname(randomreponsearray[0]),getcountryname(randomreponsearray[1]),getcountryname(randomreponsearray[2]),getcountryname(randomreponsearray[3])],'À quel pays appartient ce drapeau?');
+      
+      break;
+
+
+      
+
+
+      case 4:
+      //createboard([getbonnereponse(0,5),getmauvaisereponses(0,5)[0],getmauvaisereponses(0,5)[1],getmauvaisereponses(0,5)[2]],getquestion(0,5));
+      let getquestion = create4reponses4column(5);
+      //console.log("getquestion");
+      //console.log(getquestion[0][0]);
+      //console.log("reponse 1");
+      //console.log(randomreponsearray[0]);
+      createboard([
+        randomreponsearray[0],
+        randomreponsearray[1],
+        randomreponsearray[2],
+        randomreponsearray[3]
+      ],
+      getquestion[0][0]
+      );
+      
+      //console.log(reponsearray);
+      //createboard([getcountryname(randomreponsearray[0]),getcountryname(randomreponsearray[1]),getcountryname(randomreponsearray[2]),getcountryname(randomreponsearray[3])],'À quel pays appartient ce drapeau?');
       
       break;
   }
@@ -400,8 +462,13 @@ function createreponse() {
         reponsetextvar = makereponsetext((randomreponsearray[4]==randomreponsearray[currentboutoncliqué]));
         createboard([getcountryname(randomreponsearray[4])],reponsetextvar[1]);
           break;
-      }
 
+          case 4:
+          reponsetextvar = makereponsetext((randomreponsearray[4]==randomreponsearray[currentboutoncliqué]));
+          createboard([randomreponsearray[4]],reponsetextvar[1]);
+          break;
+      }
+      avancement=2;
       afterreponse();
 
       
@@ -439,40 +506,23 @@ function checkreponse2(is1right) {
   
 }
 
+function setcurrenttable(i) {
+  
+  currenttable="countries";
 
+  
 
-
-
-
- function beginsection() {
-  /*
-  switch (currentsection) {
-    case 0:
-      currenttable="countries";
-
-      switch (currentquestion) {
-        case 0:
-          beginmostpeople();
-          break;
-      }
-
-      break;
-    case 1:
-      console.log("Deux");
-      break;
-    case 2:
-      console.log("Trois");
-      break;
-  }
+  console.log("toto")
+  customtablelist.forEach((customtable, index) => {
+    
+    if (customtable[0]==i) {
+      //console.log(customtable[1]); 
+      currenttable=customtable[1];
+    }
 
     
-
-    textevar="id";
-    //lancerScriptPHP(0);
-    
-    
-  */  
- }
+  });
+}
 
 
 
@@ -510,6 +560,10 @@ function checkreponse2(is1right) {
 
 
 
+
+
+
+////GEOGRAPHIE
  function getcountryname(i) {
   return JSON.parse(allcolumns[0][i].translations).fra.common;
 }
@@ -531,10 +585,26 @@ function getcountryflag(i) {
 }
 
 
+////GENERALE
 
 
+//questions
 
+function getquestion(i,currenttableindex) {
+  return  allcolumns[currenttableindex][i].question;
+}
 
+function getbonnereponse(i,currenttableindex) {
+  return  allcolumns[currenttableindex][i].bonne_reponse;
+}
+
+function getmauvaisereponses(i,currenttableindex) {
+  return  [
+    allcolumns[currenttableindex][i].mauvaise_reponse_1,
+    allcolumns[currenttableindex][i].mauvaise_reponse_2,
+    allcolumns[currenttableindex][i].mauvaise_reponse_3
+          ];
+}
 
 
 
@@ -569,8 +639,11 @@ function getcountryflag(i) {
 
  function getdatainformation(textevar2,allsectionsindex2) {
     //currenttable="countries";
+    
     textevar=textevar2;
+    
     //currenttableindex=index2;
+    
     lancerScriptPHP(0,allsectionsindex2)
  }
 
@@ -691,12 +764,24 @@ async function afterreponse() {
   await wait(1500); // attend 1000 ms (1 seconde)
   //console.log("1 seconde est passée !");
   clearimage();
-  if (globalavancement<3) {
+  if (globalavancement<questionarraylimit[currentsection]) {
     
     createquestion();
+    console.log("questionnaire max : "+randomquestionarray.length + " "+currentsection);
     
   } else {
-    createboard([("score : "+currentscore)],"Fin !");
+    currentsection+=1;
+
+    console.log("bubu questionnaire max : "+randomquestionarray.length + " "+currentsection);
+    
+
+    if (currentsection==randomquestionarray.length) {
+      createboard([("score : "+currentscore)],"Fin !");
+    } else {
+      globalavancement=0;
+      createquestion();
+    }
+    
     
   }
 

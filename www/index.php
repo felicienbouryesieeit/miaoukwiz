@@ -27,7 +27,7 @@ seed :
 <div class="container">
 <div id="titre" class="maintext">Miaoukwiz</div>
   <div id="drapeau"></div>
-  <div id="monTexte">chargement...</div>
+  <div id="monTexte" class="questiontext">chargement...</div>
   <div class="boutons">
     <div id="button-container"></div>
   </div>  
