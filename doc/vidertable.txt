@@ -1,0 +1,35 @@
+TRUNCATE TABLE votre_table
+
+
+
+
+
+
+{
+      "question": "Quelle particule possède une charge négative ?",
+      "bonne_reponse": "L’électron",
+      "mauvaise_reponse_1": "Le proton",
+      "mauvaise_reponse_2": "Le neutron",
+      "mauvaise_reponse_3": "Le photon"
+    },
+    {
+      "question": "Quel est le symbole chimique de l’eau ?",
+      "bonne_reponse": "H₂O",
+      "mauvaise_reponse_1": "HO₂",
+      "mauvaise_reponse_2": "OH₂",
+      "mauvaise_reponse_3": "H₂"
+    },
+    {
+      "question": "Quelle loi explique la relation entre tension, intensité et résistance ?",
+      "bonne_reponse": "La loi d’Ohm",
+      "mauvaise_reponse_1": "La loi de Newton",
+      "mauvaise_reponse_2": "La loi de Coulomb",
+      "mauvaise_reponse_3": "La loi de Hooke"
+    },
+    {
+      "question": "Quel gaz est le plus abondant dans l’atmosphère terrestre ?",
+      "bonne_reponse": "Le diazote",
+      "mauvaise_reponse_1": "Le dioxygène",
+      "mauvaise_reponse_2": "Le dioxyde de carbone",
+      "mauvaise_reponse_3": "L’hélium"
+    },

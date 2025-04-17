@@ -1,0 +1,25 @@
+CREATE TABLE quiz_français (
+    question TEXT,
+    bonne_reponse TEXT,
+    mauvaise_reponse_1 TEXT,
+    mauvaise_reponse_2 TEXT,
+    mauvaise_reponse_3 TEXT
+);
+
+
+
+
+
+INSERT INTO quiz_histoire (
+    question, 
+    bonne_reponse, 
+    mauvaise_reponse_1, 
+    mauvaise_reponse_2, 
+    mauvaise_reponse_3
+) VALUES (
+    'Quel événement marque traditionnellement la fin de l\'Empire romain d\'Occident ?',
+    'La déposition du dernier empereur romain d\'Occident en 476',
+    'La prise de Constantinople par les Ottomans en 1453',
+    'Le sac de Rome par les Wisigoths en 410',
+    'L\'assassinat de Jules César en 44 av. J.-C.'
+);

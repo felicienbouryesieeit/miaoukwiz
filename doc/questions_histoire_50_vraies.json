@@ -1,0 +1,247 @@
+[
+    {
+        "question": "En quelle année a eu lieu la Révolution française ?",
+        "bonne_reponse": "1789",
+        "mauvaise_reponse_1": "1776",
+        "mauvaise_reponse_2": "1815",
+        "mauvaise_reponse_3": "1792"
+    },
+    {
+        "question": "Quel roi de France a été surnommé le Roi Soleil ?",
+        "bonne_reponse": "Louis XIV",
+        "mauvaise_reponse_1": "Louis XVI",
+        "mauvaise_reponse_2": "François Ier",
+        "mauvaise_reponse_3": "Napoléon"
+    },
+    {
+        "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?",
+        "bonne_reponse": "La guerre de Sécession",
+        "mauvaise_reponse_1": "La guerre de Cent Ans",
+        "mauvaise_reponse_2": "La guerre d'Indépendance",
+        "mauvaise_reponse_3": "La guerre du Viêt Nam"
+    },
+    {
+        "question": "Quel mur est tombé en 1989, symbolisant la fin de la Guerre froide ?",
+        "bonne_reponse": "Le mur de Berlin",
+        "mauvaise_reponse_1": "Le mur de Chine",
+        "mauvaise_reponse_2": "Le mur de Hadrien",
+        "mauvaise_reponse_3": "Le mur des Lamentations"
+    },
+    {
+        "question": "Qui a découvert l'Amérique en 1492 ?",
+        "bonne_reponse": "Christophe Colomb",
+        "mauvaise_reponse_1": "Marco Polo",
+        "mauvaise_reponse_2": "Vasco de Gama",
+        "mauvaise_reponse_3": "Magellan"
+    },
+    {
+        "question": "Quel empire a été dirigé par Gengis Khan ?",
+        "bonne_reponse": "L'empire mongol",
+        "mauvaise_reponse_1": "L'empire ottoman",
+        "mauvaise_reponse_2": "L'empire romain",
+        "mauvaise_reponse_3": "L'empire byzantin"
+    },
+    {
+        "question": "En quelle année a commencé la Première Guerre mondiale ?",
+        "bonne_reponse": "1914",
+        "mauvaise_reponse_1": "1918",
+        "mauvaise_reponse_2": "1939",
+        "mauvaise_reponse_3": "1905"
+    },
+    {
+        "question": "Quel pays a été dirigé par Adolf Hitler ?",
+        "bonne_reponse": "Allemagne",
+        "mauvaise_reponse_1": "Autriche",
+        "mauvaise_reponse_2": "Pologne",
+        "mauvaise_reponse_3": "Italie"
+    },
+    {
+        "question": "Quel peuple a construit les pyramides d'Égypte ?",
+        "bonne_reponse": "Les Égyptiens",
+        "mauvaise_reponse_1": "Les Romains",
+        "mauvaise_reponse_2": "Les Grecs",
+        "mauvaise_reponse_3": "Les Mayas"
+    },
+    {
+        "question": "Quelle civilisation antique a inventé la démocratie ?",
+        "bonne_reponse": "Les Grecs",
+        "mauvaise_reponse_1": "Les Romains",
+        "mauvaise_reponse_2": "Les Égyptiens",
+        "mauvaise_reponse_3": "Les Mésopotamiens"
+    },
+    {
+        "question": "Qui a été le premier président des États-Unis ?",
+        "bonne_reponse": "George Washington",
+        "mauvaise_reponse_1": "Thomas Jefferson",
+        "mauvaise_reponse_2": "Abraham Lincoln",
+        "mauvaise_reponse_3": "John Adams"
+    },
+    {
+        "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+        "bonne_reponse": "Le traité de Versailles",
+        "mauvaise_reponse_1": "Le traité de Tordesillas",
+        "mauvaise_reponse_2": "Le traité de Rome",
+        "mauvaise_reponse_3": "Le traité de Paris"
+    },
+    {
+        "question": "Quelle reine célèbre d'Égypte était connue pour son alliance avec Jules César ?",
+        "bonne_reponse": "Cléopâtre",
+        "mauvaise_reponse_1": "Hatchepsout",
+        "mauvaise_reponse_2": "Néfertiti",
+        "mauvaise_reponse_3": "Isis"
+    },
+    {
+        "question": "Quel empire est tombé en 1453 après la prise de Constantinople ?",
+        "bonne_reponse": "L’Empire byzantin",
+        "mauvaise_reponse_1": "L’Empire romain d’Occident",
+        "mauvaise_reponse_2": "L’Empire perse",
+        "mauvaise_reponse_3": "L’Empire carolingien"
+    },
+    {
+        "question": "Qui a lancé la Réforme protestante en 1517 ?",
+        "bonne_reponse": "Martin Luther",
+        "mauvaise_reponse_1": "Jean Calvin",
+        "mauvaise_reponse_2": "Henri VIII",
+        "mauvaise_reponse_3": "Érasme"
+    },
+    {
+        "question": "Qui était le dirigeant de l’Union soviétique pendant la Seconde Guerre mondiale ?",
+        "bonne_reponse": "Joseph Staline",
+        "mauvaise_reponse_1": "Léon Trotski",
+        "mauvaise_reponse_2": "Vladimir Lénine",
+        "mauvaise_reponse_3": "Nikita Khrouchtchev"
+    },
+    {
+        "question": "Quel pays a été le premier à accorder le droit de vote aux femmes ?",
+        "bonne_reponse": "Nouvelle-Zélande",
+        "mauvaise_reponse_1": "France",
+        "mauvaise_reponse_2": "Royaume-Uni",
+        "mauvaise_reponse_3": "États-Unis"
+    },
+    {
+        "question": "Qui a été le premier homme à marcher sur la Lune ?",
+        "bonne_reponse": "Neil Armstrong",
+        "mauvaise_reponse_1": "Buzz Aldrin",
+        "mauvaise_reponse_2": "Youri Gagarine",
+        "mauvaise_reponse_3": "Michael Collins"
+    },
+    {
+        "question": "Quel roi anglais a eu six épouses ?",
+        "bonne_reponse": "Henri VIII",
+        "mauvaise_reponse_1": "Édouard VI",
+        "mauvaise_reponse_2": "Charles II",
+        "mauvaise_reponse_3": "Richard III"
+    },
+    {
+        "question": "Quel conflit a opposé les États-Unis au Viêt Nam dans les années 1960-1970 ?",
+        "bonne_reponse": "La guerre du Viêt Nam",
+        "mauvaise_reponse_1": "La guerre de Corée",
+        "mauvaise_reponse_2": "La guerre du Golfe",
+        "mauvaise_reponse_3": "La guerre d'Irak"
+    },
+    {
+        "question": "Quelle ville a été bombardée par une bombe atomique le 6 août 1945 ?",
+        "bonne_reponse": "Hiroshima",
+        "mauvaise_reponse_1": "Nagasaki",
+        "mauvaise_reponse_2": "Tokyo",
+        "mauvaise_reponse_3": "Osaka"
+    },
+    {
+        "question": "Quel philosophe grec a été condamné à mort par la ciguë ?",
+        "bonne_reponse": "Socrate",
+        "mauvaise_reponse_1": "Platon",
+        "mauvaise_reponse_2": "Aristote",
+        "mauvaise_reponse_3": "Épicure"
+    },
+    {
+        "question": "Quel est le nom de l’époque précédant le Moyen Âge ?",
+        "bonne_reponse": "Antiquité",
+        "mauvaise_reponse_1": "Renaissance",
+        "mauvaise_reponse_2": "Époque moderne",
+        "mauvaise_reponse_3": "Contemporaine"
+    },
+    {
+        "question": "Quel événement a déclenché la Seconde Guerre mondiale ?",
+        "bonne_reponse": "L’invasion de la Pologne par l’Allemagne",
+        "mauvaise_reponse_1": "L’attaque de Pearl Harbor",
+        "mauvaise_reponse_2": "La montée d’Hitler au pouvoir",
+        "mauvaise_reponse_3": "Le traité de Versailles"
+    },
+    {
+        "question": "Quel mouvement social de 1968 a profondément marqué la France ?",
+        "bonne_reponse": "Mai 68",
+        "mauvaise_reponse_1": "La Commune de Paris",
+        "mauvaise_reponse_2": "Le Front populaire",
+        "mauvaise_reponse_3": "La Révolution de 1848"
+    },
+    {
+        "question": "Qui a dirigé la Chine après la révolution communiste de 1949 ?",
+        "bonne_reponse": "Mao Zedong",
+        "mauvaise_reponse_1": "Sun Yat-sen",
+        "mauvaise_reponse_2": "Chiang Kai-shek",
+        "mauvaise_reponse_3": "Deng Xiaoping"
+    },
+    {
+        "question": "Quelle est la période qui suit le Moyen Âge ?",
+        "bonne_reponse": "La Renaissance",
+        "mauvaise_reponse_1": "L’Antiquité",
+        "mauvaise_reponse_2": "La Révolution",
+        "mauvaise_reponse_3": "L’époque contemporaine"
+    },
+    {
+        "question": "Quel navigateur portugais a contourné le Cap de Bonne-Espérance ?",
+        "bonne_reponse": "Vasco de Gama",
+        "mauvaise_reponse_1": "Fernand de Magellan",
+        "mauvaise_reponse_2": "Christophe Colomb",
+        "mauvaise_reponse_3": "Amerigo Vespucci"
+    },
+    {
+        "question": "Quel empire précolombien dominait le Mexique avant l’arrivée des Espagnols ?",
+        "bonne_reponse": "L’empire aztèque",
+        "mauvaise_reponse_1": "L’empire inca",
+        "mauvaise_reponse_2": "Les Mayas",
+        "mauvaise_reponse_3": "Les Toltèques"
+    },
+    {
+        "question": "Quel est le nom du navire sur lequel Napoléon a été exilé à Sainte-Hélène ?",
+        "bonne_reponse": "Northumberland",
+        "mauvaise_reponse_1": "Victory",
+        "mauvaise_reponse_2": "HMS Beagle",
+        "mauvaise_reponse_3": "Bounty"
+    },
+    {
+        "question": "Quelle est la date de la prise de la Bastille ?",
+        "bonne_reponse": "14 juillet 1789",
+        "mauvaise_reponse_1": "4 août 1789",
+        "mauvaise_reponse_2": "5 mai 1789",
+        "mauvaise_reponse_3": "21 janvier 1793"
+    },
+    {
+        "question": "Quel était le nom du plan américain pour reconstruire l’Europe après 1945 ?",
+        "bonne_reponse": "Le plan Marshall",
+        "mauvaise_reponse_1": "Le plan Schuman",
+        "mauvaise_reponse_2": "Le plan Truman",
+        "mauvaise_reponse_3": "Le plan Monnet"
+    },
+    {
+        "question": "Qui fut le premier empereur romain ?",
+        "bonne_reponse": "Auguste",
+        "mauvaise_reponse_1": "Jules César",
+        "mauvaise_reponse_2": "Néron",
+        "mauvaise_reponse_3": "Caligula"
+    },
+    {
+        "question": "Quel traité fonde l’Union européenne ?",
+        "bonne_reponse": "Le traité de Maastricht",
+        "mauvaise_reponse_1": "Le traité de Versailles",
+        "mauvaise_reponse_2": "Le traité de Rome",
+        "mauvaise_reponse_3": "Le traité de Lisbonne"
+    },
+    {
+        "question": "Quel dirigeant sud-africain a lutté contre l’apartheid ?",
+        "bonne_reponse": "Nelson Mandela",
+        "mauvaise_reponse_1": "Desmond Tutu",
+        "mauvaise_reponse_2": "Frederik de Klerk",
+        "mauvaise_reponse_3": "Steve Biko"
+    }
+]

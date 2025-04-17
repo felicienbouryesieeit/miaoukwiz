@@ -1,0 +1,681 @@
+[
+  {
+      "question": "Qui a peint la Joconde ?",
+      "bonne_reponse": "Léonard de Vinci",
+      "mauvaise_reponse_1": "Michel-Ange",
+      "mauvaise_reponse_2": "Raphaël",
+      "mauvaise_reponse_3": "Rembrandt"
+  },
+  {
+      "question": "Quel est l’auteur de '1984' ?",
+      "bonne_reponse": "George Orwell",
+      "mauvaise_reponse_1": "Aldous Huxley",
+      "mauvaise_reponse_2": "Ray Bradbury",
+      "mauvaise_reponse_3": "Jules Verne"
+  },
+  {
+      "question": "Quel film a remporté l’Oscar du meilleur film en 1998 avec la réplique 'I'm the king of the world' ?",
+      "bonne_reponse": "Titanic",
+      "mauvaise_reponse_1": "Forrest Gump",
+      "mauvaise_reponse_2": "Le Seigneur des Anneaux",
+      "mauvaise_reponse_3": "Gladiator"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+      "question": "Qui a composé la Symphonie n°9 dite 'Choral' ?",
+      "bonne_reponse": "Ludwig van Beethoven",
+      "mauvaise_reponse_1": "Wolfgang Amadeus Mozart",
+      "mauvaise_reponse_2": "Johann Sebastian Bach",
+      "mauvaise_reponse_3": "Franz Schubert"
+  },
+  {
+      "question": "Dans quelle ville se trouve le musée du Louvre ?",
+      "bonne_reponse": "Paris",
+      "mauvaise_reponse_1": "Londres",
+      "mauvaise_reponse_2": "Rome",
+      "mauvaise_reponse_3": "Madrid"
+  },
+  {
+      "question": "Quel artiste est connu pour ses boîtes de soupe Campbell ?",
+      "bonne_reponse": "Andy Warhol",
+      "mauvaise_reponse_1": "Roy Lichtenstein",
+      "mauvaise_reponse_2": "Jean-Michel Basquiat",
+      "mauvaise_reponse_3": "Salvador Dalí"
+  },
+  {
+      "question": "Quel écrivain a créé le personnage de Sherlock Holmes ?",
+      "bonne_reponse": "Arthur Conan Doyle",
+      "mauvaise_reponse_1": "Agatha Christie",
+      "mauvaise_reponse_2": "Stephen King",
+      "mauvaise_reponse_3": "Jules Verne"
+  },
+  {
+      "question": "Quel chanteur est surnommé le 'King of Pop' ?",
+      "bonne_reponse": "Michael Jackson",
+      "mauvaise_reponse_1": "Elvis Presley",
+      "mauvaise_reponse_2": "Prince",
+      "mauvaise_reponse_3": "Justin Timberlake"
+  },
+  {
+      "question": "Dans quelle saga trouve-t-on le personnage de Gandalf ?",
+      "bonne_reponse": "Le Seigneur des Anneaux",
+      "mauvaise_reponse_1": "Harry Potter",
+      "mauvaise_reponse_2": "Game of Thrones",
+      "mauvaise_reponse_3": "Narnia"
+  },
+  {
+      "question": "Quel peintre est célèbre pour avoir coupé une partie de son oreille ?",
+      "bonne_reponse": "Vincent van Gogh",
+      "mauvaise_reponse_1": "Pablo Picasso",
+      "mauvaise_reponse_2": "Claude Monet",
+      "mauvaise_reponse_3": "Édouard Manet"
+  },
+  {
+      "question": "Quel film réalisé par James Cameron est sorti en 2009 et se déroule sur la planète Pandora ?",
+      "bonne_reponse": "Avatar",
+      "mauvaise_reponse_1": "Interstellar",
+      "mauvaise_reponse_2": "Gravity",
+      "mauvaise_reponse_3": "Le Cinquième Élément"
+  },
+  {
+      "question": "Quel philosophe grec est l’auteur de 'La République' ?",
+      "bonne_reponse": "Platon",
+      "mauvaise_reponse_1": "Aristote",
+      "mauvaise_reponse_2": "Socrate",
+      "mauvaise_reponse_3": "Épicure"
+  },
+  {
+      "question": "Quel groupe britannique a sorti l’album 'Abbey Road' ?",
+      "bonne_reponse": "The Beatles",
+      "mauvaise_reponse_1": "The Rolling Stones",
+      "mauvaise_reponse_2": "Pink Floyd",
+      "mauvaise_reponse_3": "Queen"
+  },
+  {
+      "question": "Dans quel pays est né le peintre Salvador Dalí ?",
+      "bonne_reponse": "Espagne",
+      "mauvaise_reponse_1": "France",
+      "mauvaise_reponse_2": "Italie",
+      "mauvaise_reponse_3": "Portugal"
+  },
+  {
+      "question": "Quel est le nom du sorcier à lunettes dans les romans de J.K. Rowling ?",
+      "bonne_reponse": "Harry Potter",
+      "mauvaise_reponse_1": "Ron Weasley",
+      "mauvaise_reponse_2": "Draco Malfoy",
+      "mauvaise_reponse_3": "Neville Londubat"
+  },
+  {
+      "question": "Qui a composé l’opéra 'La Flûte enchantée' ?",
+      "bonne_reponse": "Wolfgang Amadeus Mozart",
+      "mauvaise_reponse_1": "Giuseppe Verdi",
+      "mauvaise_reponse_2": "Richard Wagner",
+      "mauvaise_reponse_3": "Ludwig van Beethoven"
+  },
+  {
+      "question": "Quel réalisateur est à l’origine des films 'Inception' et 'Tenet' ?",
+      "bonne_reponse": "Christopher Nolan",
+      "mauvaise_reponse_1": "Steven Spielberg",
+      "mauvaise_reponse_2": "Quentin Tarantino",
+      "mauvaise_reponse_3": "Martin Scorsese"
+  },
+  {
+      "question": "Quel roman commence par la célèbre phrase 'Longtemps, je me suis couché de bonne heure' ?",
+      "bonne_reponse": "À la recherche du temps perdu",
+      "mauvaise_reponse_1": "Madame Bovary",
+      "mauvaise_reponse_2": "Les Misérables",
+      "mauvaise_reponse_3": "Le Rouge et le Noir"
+  },
+  {
+      "question": "Quel super-héros vit à Gotham City ?",
+      "bonne_reponse": "Batman",
+      "mauvaise_reponse_1": "Spider-Man",
+      "mauvaise_reponse_2": "Iron Man",
+      "mauvaise_reponse_3": "Captain America"
+  },
+  {
+      "question": "Quel peintre espagnol est connu pour sa période bleue et son œuvre 'Guernica' ?",
+      "bonne_reponse": "Pablo Picasso",
+      "mauvaise_reponse_1": "Joan Miró",
+      "mauvaise_reponse_2": "Diego Velázquez",
+      "mauvaise_reponse_3": "Goya"
+  },
+  {
+      "question": "Quel auteur de théâtre a écrit 'Hamlet' et 'Roméo et Juliette' ?",
+      "bonne_reponse": "William Shakespeare",
+      "mauvaise_reponse_1": "Molière",
+      "mauvaise_reponse_2": "Victor Hugo",
+      "mauvaise_reponse_3": "Anton Tchekhov"
+  },
+  {
+      "question": "Quel film d’animation met en scène un robot nettoyeur de la planète ?",
+      "bonne_reponse": "WALL-E",
+      "mauvaise_reponse_1": "Ratatouille",
+      "mauvaise_reponse_2": "Toy Story",
+      "mauvaise_reponse_3": "Big Hero 6"
+  },
+  {
+      "question": "Quel chanteur français est l’auteur de 'La Bohème' et 'Emmenez-moi' ?",
+      "bonne_reponse": "Charles Aznavour",
+      "mauvaise_reponse_1": "Jacques Brel",
+      "mauvaise_reponse_2": "Georges Brassens",
+      "mauvaise_reponse_3": "Claude François"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Qui a peint 'La Cène' ?",
+    "bonne_reponse": "Léonard de Vinci",
+    "mauvaise_reponse_1": "Michel-Ange",
+    "mauvaise_reponse_2": "Raphaël",
+    "mauvaise_reponse_3": "Botticelli"
+  },
+  {
+    "question": "Quel musicien est l'auteur de 'L'Hymne à la Joie' ?",
+    "bonne_reponse": "Beethoven",
+    "mauvaise_reponse_1": "Mozart",
+    "mauvaise_reponse_2": "Chopin",
+    "mauvaise_reponse_3": "Brahms"
+  },
+  {
+    "question": "Quel film a remporté l'Oscar du meilleur film en 1994 ?",
+    "bonne_reponse": "Forrest Gump",
+    "mauvaise_reponse_1": "Pulp Fiction",
+    "mauvaise_reponse_2": "The Shawshank Redemption",
+    "mauvaise_reponse_3": "Jurassic Park"
+  },
+  {
+    "question": "Qui est l'auteur de 'L'Étranger' ?",
+    "bonne_reponse": "Albert Camus",
+    "mauvaise_reponse_1": "Jean-Paul Sartre",
+    "mauvaise_reponse_2": "Simone de Beauvoir",
+    "mauvaise_reponse_3": "Victor Hugo"
+  },
+  {
+    "question": "Quel groupe a popularisé la chanson 'Bohemian Rhapsody' ?",
+    "bonne_reponse": "Queen",
+    "mauvaise_reponse_1": "The Beatles",
+    "mauvaise_reponse_2": "Pink Floyd",
+    "mauvaise_reponse_3": "The Rolling Stones"
+  },
+  {
+    "question": "Dans quel pays se trouve le Colisée ?",
+    "bonne_reponse": "Italie",
+    "mauvaise_reponse_1": "Grèce",
+    "mauvaise_reponse_2": "France",
+    "mauvaise_reponse_3": "Espagne"
+  },
+  {
+    "question": "Qui a écrit 'Roméo et Juliette' ?",
+    "bonne_reponse": "William Shakespeare",
+    "mauvaise_reponse_1": "Charles Dickens",
+    "mauvaise_reponse_2": "Jane Austen",
+    "mauvaise_reponse_3": "Victor Hugo"
+  },
+  {
+    "question": "Quel artiste est connu pour ses tableaux de tournesols ?",
+    "bonne_reponse": "Vincent van Gogh",
+    "mauvaise_reponse_1": "Claude Monet",
+    "mauvaise_reponse_2": "Henri Matisse",
+    "mauvaise_reponse_3": "Paul Cézanne"
+  },
+  {
+    "question": "Quel rappeur a sorti l’album 'To Pimp a Butterfly' ?",
+    "bonne_reponse": "Kendrick Lamar",
+    "mauvaise_reponse_1": "Drake",
+    "mauvaise_reponse_2": "Kanye West",
+    "mauvaise_reponse_3": "J. Cole"
+  },
+  {
+    "question": "Qui a écrit la saga 'Le Seigneur des Anneaux' ?",
+    "bonne_reponse": "J.R.R. Tolkien",
+    "mauvaise_reponse_1": "C.S. Lewis",
+    "mauvaise_reponse_2": "George R.R. Martin",
+    "mauvaise_reponse_3": "J.K. Rowling"
+  },
+  {
+    "question": "Dans quelle série trouve-t-on le personnage de Walter White ?",
+    "bonne_reponse": "Breaking Bad",
+    "mauvaise_reponse_1": "The Wire",
+    "mauvaise_reponse_2": "Ozark",
+    "mauvaise_reponse_3": "Better Call Saul"
+  },
+  {
+    "question": "Quelle ville est surnommée la 'ville éternelle' ?",
+    "bonne_reponse": "Rome",
+    "mauvaise_reponse_1": "Athènes",
+    "mauvaise_reponse_2": "Paris",
+    "mauvaise_reponse_3": "Istanbul"
+  },
+  {
+    "question": "Quel est le nom du compositeur de 'La Traviata' ?",
+    "bonne_reponse": "Giuseppe Verdi",
+    "mauvaise_reponse_1": "Giacomo Puccini",
+    "mauvaise_reponse_2": "Richard Wagner",
+    "mauvaise_reponse_3": "Antonio Vivaldi"
+  },
+  {
+    "question": "Qui a interprété le rôle principal dans 'Titanic' ?",
+    "bonne_reponse": "Leonardo DiCaprio",
+    "mauvaise_reponse_1": "Brad Pitt",
+    "mauvaise_reponse_2": "Tom Cruise",
+    "mauvaise_reponse_3": "Johnny Depp"
+  },
+  {
+    "question": "Quel est l’auteur des 'Misérables' ?",
+    "bonne_reponse": "Victor Hugo",
+    "mauvaise_reponse_1": "Émile Zola",
+    "mauvaise_reponse_2": "Honoré de Balzac",
+    "mauvaise_reponse_3": "Alexandre Dumas"
+  },
+  {
+    "question": "Quel film Pixar met en scène des émotions personnifiées ?",
+    "bonne_reponse": "Vice-Versa",
+    "mauvaise_reponse_1": "Coco",
+    "mauvaise_reponse_2": "Là-haut",
+    "mauvaise_reponse_3": "Soul"
+  },
+  {
+    "question": "Quel philosophe a écrit 'Critique de la raison pure' ?",
+    "bonne_reponse": "Emmanuel Kant",
+    "mauvaise_reponse_1": "Descartes",
+    "mauvaise_reponse_2": "Nietzsche",
+    "mauvaise_reponse_3": "Hegel"
+  },
+  {
+    "question": "Qui a chanté 'Like a Prayer' en 1989 ?",
+    "bonne_reponse": "Madonna",
+    "mauvaise_reponse_1": "Whitney Houston",
+    "mauvaise_reponse_2": "Janet Jackson",
+    "mauvaise_reponse_3": "Cher"
+  },
+  {
+    "question": "Quel est le peintre du célèbre tableau 'Le Cri' ?",
+    "bonne_reponse": "Edvard Munch",
+    "mauvaise_reponse_1": "Paul Gauguin",
+    "mauvaise_reponse_2": "Henri Rousseau",
+    "mauvaise_reponse_3": "Egon Schiele"
+  },
+  {
+    "question": "Quel auteur a écrit '1984' ?",
+    "bonne_reponse": "George Orwell",
+    "mauvaise_reponse_1": "Aldous Huxley",
+    "mauvaise_reponse_2": "Ray Bradbury",
+    "mauvaise_reponse_3": "Philip K. Dick"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "bonne_reponse": "Victor Hugo",
+      "mauvaise_reponse_1": "Émile Zola",
+      "mauvaise_reponse_2": "Honoré de Balzac",
+      "mauvaise_reponse_3": "Alexandre Dumas"
+  },
+  {
+      "question": "Quel artiste a peint la fresque de la chapelle Sixtine ?",
+      "bonne_reponse": "Michel-Ange",
+      "mauvaise_reponse_1": "Léonard de Vinci",
+      "mauvaise_reponse_2": "Raphaël",
+      "mauvaise_reponse_3": "Caravage"
+  },
+  {
+      "question": "Quel film a remporté l’Oscar du meilleur film en 1997 ?",
+      "bonne_reponse": "Titanic",
+      "mauvaise_reponse_1": "Forrest Gump",
+      "mauvaise_reponse_2": "La Liste de Schindler",
+      "mauvaise_reponse_3": "Gladiator"
+  },
+  {
+      "question": "Quel auteur a écrit '1984' ?",
+      "bonne_reponse": "George Orwell",
+      "mauvaise_reponse_1": "Aldous Huxley",
+      "mauvaise_reponse_2": "Ray Bradbury",
+      "mauvaise_reponse_3": "Philip K. Dick"
+  },
+  {
+      "question": "Quel groupe a popularisé la chanson 'Imagine' ?",
+      "bonne_reponse": "John Lennon",
+      "mauvaise_reponse_1": "The Beatles",
+      "mauvaise_reponse_2": "The Rolling Stones",
+      "mauvaise_reponse_3": "Pink Floyd"
+  },
+  {
+      "question": "Quel film met en scène un requin nommé Bruce ?",
+      "bonne_reponse": "Les Dents de la mer",
+      "mauvaise_reponse_1": "Jaws",
+      "mauvaise_reponse_2": "L'Odyssée",
+      "mauvaise_reponse_3": "Sharknado"
+  },
+  {
+      "question": "Quel écrivain a créé le personnage de Sherlock Holmes ?",
+      "bonne_reponse": "Arthur Conan Doyle",
+      "mauvaise_reponse_1": "Agatha Christie",
+      "mauvaise_reponse_2": "Edgar Allan Poe",
+      "mauvaise_reponse_3": "J.R.R. Tolkien"
+  },
+  {
+      "question": "Qui a chanté 'Like a Virgin' en 1984 ?",
+      "bonne_reponse": "Madonna",
+      "mauvaise_reponse_1": "Whitney Houston",
+      "mauvaise_reponse_2": "Cyndi Lauper",
+      "mauvaise_reponse_3": "Mariah Carey"
+  },
+  {
+      "question": "Quel roman commence par la phrase 'Longtemps, je me suis couché de bonne heure' ?",
+      "bonne_reponse": "À la recherche du temps perdu",
+      "mauvaise_reponse_1": "Madame Bovary",
+      "mauvaise_reponse_2": "Les Misérables",
+      "mauvaise_reponse_3": "Le Rouge et le Noir"
+  },
+  {
+      "question": "Quel film a révélé l’acteur Keanu Reeves dans les années 90 ?",
+      "bonne_reponse": "Matrix",
+      "mauvaise_reponse_1": "Speed",
+      "mauvaise_reponse_2": "Point Break",
+      "mauvaise_reponse_3": "John Wick"
+  },
+  {
+      "question": "Qui a composé la 'Marche funèbre' ?",
+      "bonne_reponse": "Frédéric Chopin",
+      "mauvaise_reponse_1": "Ludwig van Beethoven",
+      "mauvaise_reponse_2": "Johann Sebastian Bach",
+      "mauvaise_reponse_3": "Wolfgang Amadeus Mozart"
+  },
+  {
+      "question": "Quel peintre espagnol est célèbre pour ses tableaux de guitares et de musiciens ?",
+      "bonne_reponse": "Pablo Picasso",
+      "mauvaise_reponse_1": "Salvador Dalí",
+      "mauvaise_reponse_2": "Francisco de Goya",
+      "mauvaise_reponse_3": "Joan Miró"
+  },
+  {
+      "question": "Dans quelle ville se trouve le musée du Prado ?",
+      "bonne_reponse": "Madrid",
+      "mauvaise_reponse_1": "Paris",
+      "mauvaise_reponse_2": "Rome",
+      "mauvaise_reponse_3": "Londres"
+  },
+  {
+      "question": "Quel acteur incarne le personnage de Tony Stark dans 'Iron Man' ?",
+      "bonne_reponse": "Robert Downey Jr.",
+      "mauvaise_reponse_1": "Chris Hemsworth",
+      "mauvaise_reponse_2": "Chris Evans",
+      "mauvaise_reponse_3": "Mark Ruffalo"
+  },
+  {
+      "question": "Quel est le titre du premier album de Beyoncé en solo ?",
+      "bonne_reponse": "Dangerously in Love",
+      "mauvaise_reponse_1": "B'Day",
+      "mauvaise_reponse_2": "I Am... Sasha Fierce",
+      "mauvaise_reponse_3": "4"
+  },
+  {
+      "question": "Dans quel film l’acteur Brad Pitt dit-il 'What’s in the box ?' ?",
+      "bonne_reponse": "Seven",
+      "mauvaise_reponse_1": "Fight Club",
+      "mauvaise_reponse_2": "Inglourious Basterds",
+      "mauvaise_reponse_3": "Mr & Mrs Smith"
+  },
+  {
+      "question": "Qui a écrit la pièce de théâtre 'Le Misanthrope' ?",
+      "bonne_reponse": "Molière",
+      "mauvaise_reponse_1": "Victor Hugo",
+      "mauvaise_reponse_2": "Jean-Paul Sartre",
+      "mauvaise_reponse_3": "Pierre Corneille"
+  },
+  {
+      "question": "Quel acteur interprète le personnage de Jack Dawson dans 'Titanic' ?",
+      "bonne_reponse": "Leonardo DiCaprio",
+      "mauvaise_reponse_1": "Brad Pitt",
+      "mauvaise_reponse_2": "Johnny Depp",
+      "mauvaise_reponse_3": "Matthew McConaughey"
+  },
+  {
+      "question": "Dans quel livre trouve-t-on le personnage de Frodo Baggins ?",
+      "bonne_reponse": "Le Seigneur des Anneaux",
+      "mauvaise_reponse_1": "Harry Potter",
+      "mauvaise_reponse_2": "Les Chroniques de Narnia",
+      "mauvaise_reponse_3": "Le Hobbit"
+  },
+  {
+      "question": "Quel est le nom du super-héros alter ego de Bruce Wayne ?",
+      "bonne_reponse": "Batman",
+      "mauvaise_reponse_1": "Superman",
+      "mauvaise_reponse_2": "Iron Man",
+      "mauvaise_reponse_3": "Spider-Man"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+      "question": "Quel auteur a écrit 'Le Comte de Monte-Cristo' ?",
+      "bonne_reponse": "Alexandre Dumas",
+      "mauvaise_reponse_1": "Victor Hugo",
+      "mauvaise_reponse_2": "Émile Zola",
+      "mauvaise_reponse_3": "Gustave Flaubert"
+  },
+  {
+      "question": "Qui a peint 'La Nuit étoilée' ?",
+      "bonne_reponse": "Vincent van Gogh",
+      "mauvaise_reponse_1": "Claude Monet",
+      "mauvaise_reponse_2": "Pablo Picasso",
+      "mauvaise_reponse_3": "Salvador Dalí"
+  },
+  {
+      "question": "Dans quel film retrouve-t-on le personnage de Dark Vador ?",
+      "bonne_reponse": "Star Wars",
+      "mauvaise_reponse_1": "Star Trek",
+      "mauvaise_reponse_2": "Dune",
+      "mauvaise_reponse_3": "Blade Runner"
+  },
+  {
+      "question": "Qui est l'auteur de la pièce 'Le Tartuffe' ?",
+      "bonne_reponse": "Molière",
+      "mauvaise_reponse_1": "Pierre Corneille",
+      "mauvaise_reponse_2": "Jean Racine",
+      "mauvaise_reponse_3": "Victor Hugo"
+  },
+  {
+      "question": "Quel est le nom du super-héros alter ego de Clark Kent ?",
+      "bonne_reponse": "Superman",
+      "mauvaise_reponse_1": "Batman",
+      "mauvaise_reponse_2": "Spider-Man",
+      "mauvaise_reponse_3": "Iron Man"
+  },
+  {
+      "question": "Quel groupe a interprété 'Hey Jude' ?",
+      "bonne_reponse": "The Beatles",
+      "mauvaise_reponse_1": "The Rolling Stones",
+      "mauvaise_reponse_2": "Pink Floyd",
+      "mauvaise_reponse_3": "Led Zeppelin"
+  },
+  {
+      "question": "Qui a écrit 'La Guerre et la Paix' ?",
+      "bonne_reponse": "Léon Tolstoï",
+      "mauvaise_reponse_1": "Fiodor Dostoïevski",
+      "mauvaise_reponse_2": "Anton Tchekhov",
+      "mauvaise_reponse_3": "Maxime Gorki"
+  },
+  {
+      "question": "Quel film d'animation raconte l'histoire d'un poisson clown nommé Marlin ?",
+      "bonne_reponse": "Le Monde de Nemo",
+      "mauvaise_reponse_1": "La Reine des Neiges",
+      "mauvaise_reponse_2": "Coco",
+      "mauvaise_reponse_3": "Monstres & Cie"
+  },
+  {
+      "question": "Quel est le prénom de l’héroïne du film 'Wonder Woman' ?",
+      "bonne_reponse": "Diana",
+      "mauvaise_reponse_1": "Selina",
+      "mauvaise_reponse_2": "Harley",
+      "mauvaise_reponse_3": "Natasha"
+  },
+  {
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "bonne_reponse": "Antoine de Saint-Exupéry",
+      "mauvaise_reponse_1": "J.R.R. Tolkien",
+      "mauvaise_reponse_2": "Lewis Carroll",
+      "mauvaise_reponse_3": "Charles Perrault"
+  },
+  {
+      "question": "Quel peintre a créé 'Guernica' ?",
+      "bonne_reponse": "Pablo Picasso",
+      "mauvaise_reponse_1": "Salvador Dalí",
+      "mauvaise_reponse_2": "Henri Matisse",
+      "mauvaise_reponse_3": "Marc Chagall"
+  },
+  {
+      "question": "Dans quelle série télé trouve-t-on le personnage de Sheldon Cooper ?",
+      "bonne_reponse": "The Big Bang Theory",
+      "mauvaise_reponse_1": "Friends",
+      "mauvaise_reponse_2": "How I Met Your Mother",
+      "mauvaise_reponse_3": "The Office"
+  },
+  {
+      "question": "Quel groupe a chanté 'Smells Like Teen Spirit' ?",
+      "bonne_reponse": "Nirvana",
+      "mauvaise_reponse_1": "Pearl Jam",
+      "mauvaise_reponse_2": "Red Hot Chili Peppers",
+      "mauvaise_reponse_3": "Soundgarden"
+  },
+  {
+      "question": "Qui a écrit la trilogie 'Le Seigneur des Anneaux' ?",
+      "bonne_reponse": "J.R.R. Tolkien",
+      "mauvaise_reponse_1": "C.S. Lewis",
+      "mauvaise_reponse_2": "J.K. Rowling",
+      "mauvaise_reponse_3": "George R.R. Martin"
+  },
+  {
+      "question": "Quel acteur joue le rôle principal dans le film 'Inception' ?",
+      "bonne_reponse": "Leonardo DiCaprio",
+      "mauvaise_reponse_1": "Tom Hardy",
+      "mauvaise_reponse_2": "Joseph Gordon-Levitt",
+      "mauvaise_reponse_3": "Matthew McConaughey"
+  },
+  {
+      "question": "Quel personnage de Disney a une lampe magique ?",
+      "bonne_reponse": "Aladdin",
+      "mauvaise_reponse_1": "Cendrillon",
+      "mauvaise_reponse_2": "Le Roi Lion",
+      "mauvaise_reponse_3": "La Belle et la Bête"
+  },
+  {
+      "question": "Dans quelle ville se trouve la célèbre Tour Eiffel ?",
+      "bonne_reponse": "Paris",
+      "mauvaise_reponse_1": "Londres",
+      "mauvaise_reponse_2": "Rome",
+      "mauvaise_reponse_3": "Berlin"
+  },
+  {
+      "question": "Qui a créé le personnage de Spider-Man ?",
+      "bonne_reponse": "Stan Lee",
+      "mauvaise_reponse_1": "Jack Kirby",
+      "mauvaise_reponse_2": "Bob Kane",
+      "mauvaise_reponse_3": "Joe Simon"
+  },
+  {
+      "question": "Quel est le titre de l'album emblématique de Pink Floyd sorti en 1973 ?",
+      "bonne_reponse": "The Dark Side of the Moon",
+      "mauvaise_reponse_1": "Wish You Were Here",
+      "mauvaise_reponse_2": "The Wall",
+      "mauvaise_reponse_3": "Animals"
+  },
+  {
+      "question": "Qui a écrit 'Les Fleurs du mal' ?",
+      "bonne_reponse": "Charles Baudelaire",
+      "mauvaise_reponse_1": "Paul Verlaine",
+      "mauvaise_reponse_2": "Arthur Rimbaud",
+      "mauvaise_reponse_3": "Stéphane Mallarmé"
+  }
+]

@@ -1,0 +1,691 @@
+[
+    
+
+
+{
+    "question": "Quelle particule possède une charge négative ?",
+    "bonne_reponse": "L’électron",
+    "mauvaise_reponse_1": "Le proton",
+    "mauvaise_reponse_2": "Le neutron",
+    "mauvaise_reponse_3": "Le photon"
+  },
+  {
+    "question": "Quel est le symbole chimique de l’eau ?",
+    "bonne_reponse": "H₂O",
+    "mauvaise_reponse_1": "HO₂",
+    "mauvaise_reponse_2": "OH₂",
+    "mauvaise_reponse_3": "H₂"
+  },
+  {
+    "question": "Quelle loi explique la relation entre tension, intensité et résistance ?",
+    "bonne_reponse": "La loi d’Ohm",
+    "mauvaise_reponse_1": "La loi de Newton",
+    "mauvaise_reponse_2": "La loi de Coulomb",
+    "mauvaise_reponse_3": "La loi de Hooke"
+  },
+  {
+    "question": "Quel gaz est le plus abondant dans l’atmosphère terrestre ?",
+    "bonne_reponse": "Le diazote",
+    "mauvaise_reponse_1": "Le dioxygène",
+    "mauvaise_reponse_2": "Le dioxyde de carbone",
+    "mauvaise_reponse_3": "L’hélium"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Quelle est la plus petite unité de la matière ?",
+      "bonne_reponse": "L’atome",
+      "mauvaise_reponse_1": "La molécule",
+      "mauvaise_reponse_2": "Le neutron",
+      "mauvaise_reponse_3": "L’électron"
+    },
+    {
+      "question": "Quel physicien a formulé la théorie de la relativité ?",
+      "bonne_reponse": "Albert Einstein",
+      "mauvaise_reponse_1": "Isaac Newton",
+      "mauvaise_reponse_2": "Galilée",
+      "mauvaise_reponse_3": "Nikola Tesla"
+    },
+    {
+      "question": "Quelle grandeur se mesure en Newtons ?",
+      "bonne_reponse": "La force",
+      "mauvaise_reponse_1": "La masse",
+      "mauvaise_reponse_2": "La pression",
+      "mauvaise_reponse_3": "L’énergie"
+    },
+    {
+      "question": "Quelle est la charge d’un neutron ?",
+      "bonne_reponse": "Neutre",
+      "mauvaise_reponse_1": "Positive",
+      "mauvaise_reponse_2": "Négative",
+      "mauvaise_reponse_3": "Variable"
+    },
+    {
+      "question": "Quel est le pH de l’eau pure ?",
+      "bonne_reponse": "7",
+      "mauvaise_reponse_1": "5",
+      "mauvaise_reponse_2": "0",
+      "mauvaise_reponse_3": "10"
+    },
+    {
+      "question": "Comment appelle-t-on un changement d’état de solide à gaz ?",
+      "bonne_reponse": "Sublimation",
+      "mauvaise_reponse_1": "Condensation",
+      "mauvaise_reponse_2": "Fusion",
+      "mauvaise_reponse_3": "Évaporation"
+    },
+    {
+      "question": "Quel est le principal gaz à effet de serre émis par l’activité humaine ?",
+      "bonne_reponse": "Le dioxyde de carbone",
+      "mauvaise_reponse_1": "L’azote",
+      "mauvaise_reponse_2": "Le méthane",
+      "mauvaise_reponse_3": "L’ozone"
+    },
+    {
+      "question": "Quel métal est liquide à température ambiante ?",
+      "bonne_reponse": "Le mercure",
+      "mauvaise_reponse_1": "Le fer",
+      "mauvaise_reponse_2": "L’aluminium",
+      "mauvaise_reponse_3": "Le cuivre"
+    },
+    {
+      "question": "Quel scientifique a découvert la radioactivité ?",
+      "bonne_reponse": "Henri Becquerel",
+      "mauvaise_reponse_1": "Marie Curie",
+      "mauvaise_reponse_2": "Ernest Rutherford",
+      "mauvaise_reponse_3": "James Chadwick"
+    },
+    {
+      "question": "Quelle est la formule chimique du sel de table ?",
+      "bonne_reponse": "NaCl",
+      "mauvaise_reponse_1": "KCl",
+      "mauvaise_reponse_2": "NaCO₃",
+      "mauvaise_reponse_3": "Cl₂"
+    },
+    {
+      "question": "Quelle est l’unité de la résistance électrique ?",
+      "bonne_reponse": "Ohm",
+      "mauvaise_reponse_1": "Watt",
+      "mauvaise_reponse_2": "Volt",
+      "mauvaise_reponse_3": "Ampère"
+    },
+    {
+      "question": "Comment s’appelle le changement de liquide à gaz ?",
+      "bonne_reponse": "Vaporisation",
+      "mauvaise_reponse_1": "Condensation",
+      "mauvaise_reponse_2": "Sublimation",
+      "mauvaise_reponse_3": "Solidification"
+    },
+    {
+      "question": "Quel est le nom de l’unité de fréquence ?",
+      "bonne_reponse": "Hertz",
+      "mauvaise_reponse_1": "Joule",
+      "mauvaise_reponse_2": "Newton",
+      "mauvaise_reponse_3": "Pascal"
+    },
+    {
+      "question": "Que mesure un thermomètre ?",
+      "bonne_reponse": "La température",
+      "mauvaise_reponse_1": "La pression",
+      "mauvaise_reponse_2": "Le volume",
+      "mauvaise_reponse_3": "La densité"
+    },
+    {
+      "question": "Quel est l’état physique du dioxygène à température ambiante ?",
+      "bonne_reponse": "Gazeux",
+      "mauvaise_reponse_1": "Liquide",
+      "mauvaise_reponse_2": "Solide",
+      "mauvaise_reponse_3": "Plasma"
+    },
+    {
+      "question": "Comment appelle-t-on le passage de l’état liquide à l’état solide ?",
+      "bonne_reponse": "Solidification",
+      "mauvaise_reponse_1": "Vaporisation",
+      "mauvaise_reponse_2": "Fusion",
+      "mauvaise_reponse_3": "Sublimation"
+    },
+    {
+      "question": "Que produit une réaction chimique entre un acide et une base ?",
+      "bonne_reponse": "Un sel et de l’eau",
+      "mauvaise_reponse_1": "Du gaz",
+      "mauvaise_reponse_2": "De l’oxygène",
+      "mauvaise_reponse_3": "Du carbone"
+    },
+    {
+      "question": "Quelle particule est située dans le noyau de l’atome ?",
+      "bonne_reponse": "Le proton",
+      "mauvaise_reponse_1": "L’électron",
+      "mauvaise_reponse_2": "Le positron",
+      "mauvaise_reponse_3": "Le photon"
+    },
+    {
+      "question": "Quelle loi relie la pression et le volume d’un gaz ?",
+      "bonne_reponse": "La loi de Boyle-Mariotte",
+      "mauvaise_reponse_1": "La loi de Charles",
+      "mauvaise_reponse_2": "La loi d’Avogadro",
+      "mauvaise_reponse_3": "La loi d’Ohm"
+    },
+    {
+      "question": "Quel scientifique a établi les trois lois du mouvement ?",
+      "bonne_reponse": "Isaac Newton",
+      "mauvaise_reponse_1": "Albert Einstein",
+      "mauvaise_reponse_2": "Galilée",
+      "mauvaise_reponse_3": "Faraday"
+    },
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "question": "Quelle est la plus petite unité de la matière ?",
+      "bonne_reponse": "L’atome",
+      "mauvaise_reponse_1": "La molécule",
+      "mauvaise_reponse_2": "Le neutron",
+      "mauvaise_reponse_3": "L’électron"
+    },
+    {
+      "question": "Quel physicien a formulé la théorie de la relativité ?",
+      "bonne_reponse": "Albert Einstein",
+      "mauvaise_reponse_1": "Isaac Newton",
+      "mauvaise_reponse_2": "Galilée",
+      "mauvaise_reponse_3": "Nikola Tesla"
+    },
+    {
+      "question": "Quelle grandeur se mesure en Newtons ?",
+      "bonne_reponse": "La force",
+      "mauvaise_reponse_1": "La masse",
+      "mauvaise_reponse_2": "La pression",
+      "mauvaise_reponse_3": "L’énergie"
+    },
+    {
+      "question": "Quelle est la charge d’un neutron ?",
+      "bonne_reponse": "Neutre",
+      "mauvaise_reponse_1": "Positive",
+      "mauvaise_reponse_2": "Négative",
+      "mauvaise_reponse_3": "Variable"
+    },
+    {
+      "question": "Quel est le pH de l’eau pure ?",
+      "bonne_reponse": "7",
+      "mauvaise_reponse_1": "5",
+      "mauvaise_reponse_2": "0",
+      "mauvaise_reponse_3": "10"
+    },
+    {
+      "question": "Comment appelle-t-on un changement d’état de solide à gaz ?",
+      "bonne_reponse": "Sublimation",
+      "mauvaise_reponse_1": "Condensation",
+      "mauvaise_reponse_2": "Fusion",
+      "mauvaise_reponse_3": "Évaporation"
+    },
+    {
+      "question": "Quel est le principal gaz à effet de serre émis par l’activité humaine ?",
+      "bonne_reponse": "Le dioxyde de carbone",
+      "mauvaise_reponse_1": "L’azote",
+      "mauvaise_reponse_2": "Le méthane",
+      "mauvaise_reponse_3": "L’ozone"
+    },
+    {
+      "question": "Quel métal est liquide à température ambiante ?",
+      "bonne_reponse": "Le mercure",
+      "mauvaise_reponse_1": "Le fer",
+      "mauvaise_reponse_2": "L’aluminium",
+      "mauvaise_reponse_3": "Le cuivre"
+    },
+    {
+      "question": "Quel scientifique a découvert la radioactivité ?",
+      "bonne_reponse": "Henri Becquerel",
+      "mauvaise_reponse_1": "Marie Curie",
+      "mauvaise_reponse_2": "Ernest Rutherford",
+      "mauvaise_reponse_3": "James Chadwick"
+    },
+    {
+      "question": "Quelle est la formule chimique du sel de table ?",
+      "bonne_reponse": "NaCl",
+      "mauvaise_reponse_1": "KCl",
+      "mauvaise_reponse_2": "NaCO₃",
+      "mauvaise_reponse_3": "Cl₂"
+    },
+    {
+      "question": "Quelle est l’unité de la résistance électrique ?",
+      "bonne_reponse": "Ohm",
+      "mauvaise_reponse_1": "Watt",
+      "mauvaise_reponse_2": "Volt",
+      "mauvaise_reponse_3": "Ampère"
+    },
+    {
+      "question": "Comment s’appelle le changement de liquide à gaz ?",
+      "bonne_reponse": "Vaporisation",
+      "mauvaise_reponse_1": "Condensation",
+      "mauvaise_reponse_2": "Sublimation",
+      "mauvaise_reponse_3": "Solidification"
+    },
+    {
+      "question": "Quel est le nom de l’unité de fréquence ?",
+      "bonne_reponse": "Hertz",
+      "mauvaise_reponse_1": "Joule",
+      "mauvaise_reponse_2": "Newton",
+      "mauvaise_reponse_3": "Pascal"
+    },
+    {
+      "question": "Que mesure un thermomètre ?",
+      "bonne_reponse": "La température",
+      "mauvaise_reponse_1": "La pression",
+      "mauvaise_reponse_2": "Le volume",
+      "mauvaise_reponse_3": "La densité"
+    },
+    {
+      "question": "Quel est l’état physique du dioxygène à température ambiante ?",
+      "bonne_reponse": "Gazeux",
+      "mauvaise_reponse_1": "Liquide",
+      "mauvaise_reponse_2": "Solide",
+      "mauvaise_reponse_3": "Plasma"
+    },
+    {
+      "question": "Comment appelle-t-on le passage de l’état liquide à l’état solide ?",
+      "bonne_reponse": "Solidification",
+      "mauvaise_reponse_1": "Vaporisation",
+      "mauvaise_reponse_2": "Fusion",
+      "mauvaise_reponse_3": "Sublimation"
+    },
+    {
+      "question": "Que produit une réaction chimique entre un acide et une base ?",
+      "bonne_reponse": "Un sel et de l’eau",
+      "mauvaise_reponse_1": "Du gaz",
+      "mauvaise_reponse_2": "De l’oxygène",
+      "mauvaise_reponse_3": "Du carbone"
+    },
+    {
+      "question": "Quelle particule est située dans le noyau de l’atome ?",
+      "bonne_reponse": "Le proton",
+      "mauvaise_reponse_1": "L’électron",
+      "mauvaise_reponse_2": "Le positron",
+      "mauvaise_reponse_3": "Le photon"
+    },
+    {
+      "question": "Quelle loi relie la pression et le volume d’un gaz ?",
+      "bonne_reponse": "La loi de Boyle-Mariotte",
+      "mauvaise_reponse_1": "La loi de Charles",
+      "mauvaise_reponse_2": "La loi d’Avogadro",
+      "mauvaise_reponse_3": "La loi d’Ohm"
+    },
+    {
+      "question": "Quel scientifique a établi les trois lois du mouvement ?",
+      "bonne_reponse": "Isaac Newton",
+      "mauvaise_reponse_1": "Albert Einstein",
+      "mauvaise_reponse_2": "Galilée",
+      "mauvaise_reponse_3": "Faraday"
+    },
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    {
+      "question": "Quel est le nom du phénomène qui fait apparaître un arc-en-ciel ?",
+      "bonne_reponse": "La dispersion de la lumière",
+      "mauvaise_reponse_1": "La réfraction simple",
+      "mauvaise_reponse_2": "La diffraction",
+      "mauvaise_reponse_3": "L’absorption lumineuse"
+    },
+    {
+      "question": "Quel est le rôle des neutrons dans un noyau atomique ?",
+      "bonne_reponse": "Stabiliser le noyau",
+      "mauvaise_reponse_1": "Donner une charge positive",
+      "mauvaise_reponse_2": "Attirer les électrons",
+      "mauvaise_reponse_3": "Créer de l’énergie"
+    },
+    {
+      "question": "Que mesure un spectrophotomètre ?",
+      "bonne_reponse": "L’absorbance d’une solution",
+      "mauvaise_reponse_1": "La masse d’un échantillon",
+      "mauvaise_reponse_2": "La conductivité électrique",
+      "mauvaise_reponse_3": "La température d’ébullition"
+    },
+    {
+      "question": "Quel est le nom du phénomène par lequel un liquide passe lentement dans un solide poreux ?",
+      "bonne_reponse": "La capillarité",
+      "mauvaise_reponse_1": "La fusion",
+      "mauvaise_reponse_2": "La diffusion",
+      "mauvaise_reponse_3": "L’osmose"
+    },
+    {
+      "question": "Quel type d’onde est utilisé dans un four à micro-ondes ?",
+      "bonne_reponse": "Les micro-ondes",
+      "mauvaise_reponse_1": "Les ondes radio",
+      "mauvaise_reponse_2": "Les infrarouges",
+      "mauvaise_reponse_3": "Les ultraviolets"
+    },
+    {
+      "question": "Quel est l’effet principal d’un champ magnétique sur un fil parcouru par un courant ?",
+      "bonne_reponse": "Il crée une force perpendiculaire au fil",
+      "mauvaise_reponse_1": "Il interrompt le courant",
+      "mauvaise_reponse_2": "Il augmente la résistance",
+      "mauvaise_reponse_3": "Il produit de la lumière"
+    },
+    {
+      "question": "Quelle est la masse molaire approximative du carbone ?",
+      "bonne_reponse": "12 g/mol",
+      "mauvaise_reponse_1": "6 g/mol",
+      "mauvaise_reponse_2": "18 g/mol",
+      "mauvaise_reponse_3": "24 g/mol"
+    },
+    {
+      "question": "Quel appareil est utilisé pour mesurer l’intensité d’un courant électrique ?",
+      "bonne_reponse": "L’ampèremètre",
+      "mauvaise_reponse_1": "Le voltmètre",
+      "mauvaise_reponse_2": "Le wattmètre",
+      "mauvaise_reponse_3": "Le galvanomètre"
+    },
+    {
+      "question": "Comment appelle-t-on la transformation d’un gaz en liquide ?",
+      "bonne_reponse": "La liquéfaction",
+      "mauvaise_reponse_1": "La sublimation",
+      "mauvaise_reponse_2": "La vaporisation",
+      "mauvaise_reponse_3": "La condensation solide"
+    },
+    {
+      "question": "Quelle est la formule chimique de l’acide sulfurique ?",
+      "bonne_reponse": "H₂SO₄",
+      "mauvaise_reponse_1": "HCl",
+      "mauvaise_reponse_2": "HNO₃",
+      "mauvaise_reponse_3": "H₂CO₃"
+    },
+    {
+      "question": "Quel est le nom du changement d’état de gaz à solide ?",
+      "bonne_reponse": "Condensation solide",
+      "mauvaise_reponse_1": "Fusion inverse",
+      "mauvaise_reponse_2": "Sublimation",
+      "mauvaise_reponse_3": "Liquéfaction"
+    },
+    {
+      "question": "Quelle est l’unité de mesure de la pression ?",
+      "bonne_reponse": "Le pascal",
+      "mauvaise_reponse_1": "Le joule",
+      "mauvaise_reponse_2": "Le kelvin",
+      "mauvaise_reponse_3": "L’ohm"
+    },
+    {
+      "question": "Qu’est-ce qu’un isotope ?",
+      "bonne_reponse": "Un atome avec le même nombre de protons mais un nombre différent de neutrons",
+      "mauvaise_reponse_1": "Un atome chargé négativement",
+      "mauvaise_reponse_2": "Un atome avec plus d’électrons que de protons",
+      "mauvaise_reponse_3": "Une molécule instable"
+    },
+    {
+      "question": "Quel est le nom de l’énergie liée au mouvement ?",
+      "bonne_reponse": "L’énergie cinétique",
+      "mauvaise_reponse_1": "L’énergie potentielle",
+      "mauvaise_reponse_2": "L’énergie thermique",
+      "mauvaise_reponse_3": "L’énergie chimique"
+    },
+    {
+      "question": "Quel métal est souvent utilisé dans les fils électriques ?",
+      "bonne_reponse": "Le cuivre",
+      "mauvaise_reponse_1": "L’or",
+      "mauvaise_reponse_2": "Le fer",
+      "mauvaise_reponse_3": "Le zinc"
+    },
+    {
+      "question": "Quel phénomène physique permet aux bateaux de flotter ?",
+      "bonne_reponse": "La poussée d’Archimède",
+      "mauvaise_reponse_1": "La gravitation",
+      "mauvaise_reponse_2": "La pression osmotique",
+      "mauvaise_reponse_3": "L’effet Venturi"
+    },
+    {
+      "question": "Quelle est l’unité de la température dans le Système international ?",
+      "bonne_reponse": "Le kelvin",
+      "mauvaise_reponse_1": "Le degré Celsius",
+      "mauvaise_reponse_2": "Le joule",
+      "mauvaise_reponse_3": "Le watt"
+    },
+    {
+      "question": "Quelle loi lie l’intensité d’un courant à la tension et à la résistance ?",
+      "bonne_reponse": "La loi d’Ohm",
+      "mauvaise_reponse_1": "La loi de Faraday",
+      "mauvaise_reponse_2": "La loi de Lenz",
+      "mauvaise_reponse_3": "La loi de Newton"
+    },
+    {
+      "question": "Quel est le nom de la particule élémentaire porteuse de la force électromagnétique ?",
+      "bonne_reponse": "Le photon",
+      "mauvaise_reponse_1": "Le gluon",
+      "mauvaise_reponse_2": "Le neutrino",
+      "mauvaise_reponse_3": "Le muon"
+    },
+    {
+      "question": "Qu’est-ce qu’une base en chimie ?",
+      "bonne_reponse": "Une substance qui accepte un proton",
+      "mauvaise_reponse_1": "Une substance qui donne un proton",
+      "mauvaise_reponse_2": "Une molécule neutre",
+      "mauvaise_reponse_3": "Un oxydant puissant"
+    },
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    {
+      "question": "Quel physicien est célèbre pour sa théorie de la relativité ?",
+      "bonne_reponse": "Albert Einstein",
+      "mauvaise_reponse_1": "Isaac Newton",
+      "mauvaise_reponse_2": "Galilée",
+      "mauvaise_reponse_3": "Niels Bohr"
+    },
+    {
+      "question": "Quelle particule porte la charge négative dans un atome ?",
+      "bonne_reponse": "L’électron",
+      "mauvaise_reponse_1": "Le proton",
+      "mauvaise_reponse_2": "Le neutron",
+      "mauvaise_reponse_3": "Le quark"
+    },
+    {
+      "question": "Quel gaz est essentiel à la respiration cellulaire ?",
+      "bonne_reponse": "L’oxygène",
+      "mauvaise_reponse_1": "Le dioxyde de carbone",
+      "mauvaise_reponse_2": "L’hélium",
+      "mauvaise_reponse_3": "L’azote"
+    },
+    {
+      "question": "Quelle grandeur est mesurée en ohms ?",
+      "bonne_reponse": "La résistance électrique",
+      "mauvaise_reponse_1": "La tension",
+      "mauvaise_reponse_2": "L’intensité",
+      "mauvaise_reponse_3": "La puissance"
+    },
+    {
+      "question": "Comment appelle-t-on une substance qui ralentit une réaction chimique ?",
+      "bonne_reponse": "Un inhibiteur",
+      "mauvaise_reponse_1": "Un catalyseur",
+      "mauvaise_reponse_2": "Un oxydant",
+      "mauvaise_reponse_3": "Un soluté"
+    },
+    {
+      "question": "Quelle particule est échangée dans une réaction d’oxydoréduction ?",
+      "bonne_reponse": "L’électron",
+      "mauvaise_reponse_1": "Le neutron",
+      "mauvaise_reponse_2": "Le photon",
+      "mauvaise_reponse_3": "Le proton"
+    },
+    {
+      "question": "Quelle est l’unité de mesure de la fréquence ?",
+      "bonne_reponse": "Le hertz",
+      "mauvaise_reponse_1": "Le volt",
+      "mauvaise_reponse_2": "Le joule",
+      "mauvaise_reponse_3": "Le tesla"
+    },
+    {
+      "question": "Quel phénomène explique l’effet loupe avec une lentille convergente ?",
+      "bonne_reponse": "La réfraction",
+      "mauvaise_reponse_1": "La diffraction",
+      "mauvaise_reponse_2": "La réflexion",
+      "mauvaise_reponse_3": "La polarisation"
+    },
+    {
+      "question": "Quel est le rôle du noyau dans un atome ?",
+      "bonne_reponse": "Concentrer la masse et les charges positives",
+      "mauvaise_reponse_1": "Créer des électrons",
+      "mauvaise_reponse_2": "Accélérer les réactions chimiques",
+      "mauvaise_reponse_3": "Émettre des rayons UV"
+    },
+    {
+      "question": "Quel scientifique a découvert la radioactivité naturelle ?",
+      "bonne_reponse": "Henri Becquerel",
+      "mauvaise_reponse_1": "Marie Curie",
+      "mauvaise_reponse_2": "Rutherford",
+      "mauvaise_reponse_3": "Lavoisier"
+    },
+    {
+      "question": "Comment s’appelle un mélange homogène de deux liquides ?",
+      "bonne_reponse": "Une solution",
+      "mauvaise_reponse_1": "Un soluté",
+      "mauvaise_reponse_2": "Un précipité",
+      "mauvaise_reponse_3": "Un colloïde"
+    },
+    {
+      "question": "Quel est le symbole chimique du sodium ?",
+      "bonne_reponse": "Na",
+      "mauvaise_reponse_1": "S",
+      "mauvaise_reponse_2": "So",
+      "mauvaise_reponse_3": "Sn"
+    },
+    {
+      "question": "Quel type de réaction libère du dioxyde de carbone et de l’eau à partir d’un hydrocarbure ?",
+      "bonne_reponse": "La combustion",
+      "mauvaise_reponse_1": "L’électrolyse",
+      "mauvaise_reponse_2": "La précipitation",
+      "mauvaise_reponse_3": "La neutralisation"
+    },
+    {
+      "question": "Comment s’appelle un liquide qui conduit l’électricité grâce à des ions ?",
+      "bonne_reponse": "Un électrolyte",
+      "mauvaise_reponse_1": "Un isolant",
+      "mauvaise_reponse_2": "Un soluté",
+      "mauvaise_reponse_3": "Un gaz noble"
+    },
+    {
+      "question": "Que mesure un calorimètre ?",
+      "bonne_reponse": "La chaleur échangée",
+      "mauvaise_reponse_1": "La température absolue",
+      "mauvaise_reponse_2": "La pression atmosphérique",
+      "mauvaise_reponse_3": "La densité"
+    },
+    {
+      "question": "Quel type de réaction chimique se produit dans une pile électrique ?",
+      "bonne_reponse": "Une réaction d’oxydoréduction",
+      "mauvaise_reponse_1": "Une hydrolyse",
+      "mauvaise_reponse_2": "Une neutralisation",
+      "mauvaise_reponse_3": "Une combustion"
+    },
+    {
+      "question": "Quelle grandeur physique est mesurée en newtons ?",
+      "bonne_reponse": "La force",
+      "mauvaise_reponse_1": "L’énergie",
+      "mauvaise_reponse_2": "La puissance",
+      "mauvaise_reponse_3": "La température"
+    },
+    {
+      "question": "Quel est le principal gaz responsable de l’effet de serre ?",
+      "bonne_reponse": "Le dioxyde de carbone",
+      "mauvaise_reponse_1": "L’azote",
+      "mauvaise_reponse_2": "L’oxygène",
+      "mauvaise_reponse_3": "L’hélium"
+    },
+    {
+      "question": "Que se passe-t-il pour un gaz lorsqu’on augmente sa température à volume constant ?",
+      "bonne_reponse": "La pression augmente",
+      "mauvaise_reponse_1": "La masse diminue",
+      "mauvaise_reponse_2": "Le volume diminue",
+      "mauvaise_reponse_3": "Il se liquéfie"
+    },
+    {
+      "question": "Quelle interaction fondamentale maintient les protons ensemble dans le noyau ?",
+      "bonne_reponse": "La force nucléaire forte",
+      "mauvaise_reponse_1": "La gravité",
+      "mauvaise_reponse_2": "L’électromagnétisme",
+      "mauvaise_reponse_3": "La force faible"
+    }
+  ]
+  

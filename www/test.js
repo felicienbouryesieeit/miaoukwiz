@@ -28,20 +28,23 @@ let dernierboutoncliqué=-1;
 let currentboutoncliqué=-1;
 let currentsection = 0;
 let currentquestion=1;
-let allcolumnsname= ["translations","population","area","capital","flag_png","*"];//
+let allcolumnsname= ["translations","population","area","capital","flag_png","*","*","*","*","*"];//
 let allcolumns= [];
 let randomquestionarray=[
   [0,1,2,3]//geographie
-  ,[4],[4]
+  ,[4,5,6,7,8,4,5,6,7,8]
+  //,[4]
 ];
 let questionarraylimit=[
   3
-,1,1
+,7
+//,1
 ];
 let currentscore=0;
-let customtablelist=[[5,"quiz_histoire"]]
+let scoremax = 0;
+let customtablelist=[[5,"quiz_histoire"],[6,"quiz_svt"],[7,"quiz_physique"],[8,"quiz_culture"],[9,"quiz_français"]];
 
-
+let isinquestions4=false;
 
 
 
@@ -124,6 +127,8 @@ function createboard(boutontextes,questiontexte) {
   
     container.innerHTML = "";
 
+    container.style.display = "flex";
+    container.style.flexDirection = "column";
      // optionnel : adapte à ta mise en page
 
     
@@ -133,9 +138,8 @@ function createboard(boutontextes,questiontexte) {
       const bouton = document.createElement("button");
     
       bouton.textContent = boutontextes[i];
-      bouton.style.margin = "10px 16vw"; 
-      //bouton.style.flex-direction: "column";
-      //bouton.style.width = "600px";
+      bouton.style.margin = "10px"; 
+      
       
     
       bouton.onclick = () => {
@@ -267,6 +271,19 @@ function shuffle(randomquestionarray1) {
     return randomquestionarray2;
 }
 
+function createquestion4reponses(i) {
+  isinquestions4=true;
+      let getquestion = create4reponses4column(i);
+      createboard([
+        randomreponsearray[0],
+        randomreponsearray[1],
+        randomreponsearray[2],
+        randomreponsearray[3]
+      ],
+      getquestion[0][0]
+      );
+}
+
 function create4reponses1column(columnindex) {
   createrandomreponsearray1column(4,columnindex);
   //let randomreponse=seededRandomInt(0,3);
@@ -306,7 +323,12 @@ function createquestion() {
   
   currentquestion = randomquestionarray[currentsection][(globalavancement)];
   //currentquestion=4;
-  console.log("ananas : "+currentquestion+" avancement : "+globalavancement)
+  //console.log("ananas : "+currentquestion+" avancement : "+globalavancement)
+  console.log("banana"+currentquestion+" isgood : "+(currentquestion>=4 && currentquestion<=6));
+  if (currentquestion>=4 && currentquestion<=8) {
+    
+    createquestion4reponses(currentquestion+1);
+  } 
   switch (currentquestion) {
     case 0:
       
@@ -345,27 +367,23 @@ function createquestion() {
 
       
 
-
+      /*
       case 4:
-      //createboard([getbonnereponse(0,5),getmauvaisereponses(0,5)[0],getmauvaisereponses(0,5)[1],getmauvaisereponses(0,5)[2]],getquestion(0,5));
-      let getquestion = create4reponses4column(5);
-      //console.log("getquestion");
-      //console.log(getquestion[0][0]);
-      //console.log("reponse 1");
-      //console.log(randomreponsearray[0]);
-      createboard([
-        randomreponsearray[0],
-        randomreponsearray[1],
-        randomreponsearray[2],
-        randomreponsearray[3]
-      ],
-      getquestion[0][0]
-      );
-      
-      //console.log(reponsearray);
-      //createboard([getcountryname(randomreponsearray[0]),getcountryname(randomreponsearray[1]),getcountryname(randomreponsearray[2]),getcountryname(randomreponsearray[3])],'À quel pays appartient ce drapeau?');
-      
+      createquestion4reponses(5);
       break;
+
+      case 5:
+      createquestion4reponses(6);
+      break;
+
+      case 6:
+      createquestion4reponses(7);
+      break;
+
+      case 7:
+      createquestion4reponses(8);
+      break;
+      */
   }
   //console.log("oui");
   avancement=1;
@@ -434,7 +452,10 @@ function createquestion() {
 
 function createreponse() {
       let reponsetextvar
-      
+      if (isinquestions4) {
+        reponsetextvar = makereponsetext((randomreponsearray[4]==randomreponsearray[currentboutoncliqué]));
+        createboard([randomreponsearray[4]],reponsetextvar[1]);
+      }
       switch (currentquestion) {
         case 0:
       reponsetextvar = checkreponse2(getcountrypopulation(randomreponsearray[0])>getcountrypopulation(randomreponsearray[1]));
@@ -464,8 +485,7 @@ function createreponse() {
           break;
 
           case 4:
-          reponsetextvar = makereponsetext((randomreponsearray[4]==randomreponsearray[currentboutoncliqué]));
-          createboard([randomreponsearray[4]],reponsetextvar[1]);
+          
           break;
       }
       avancement=2;
@@ -482,6 +502,7 @@ function makereponsetext(istrue) {
     currentscore+=1;
     victoiretext = "gagné";
   } 
+  scoremax+=1;
   return [istrue,victoiretext];
 }
 
@@ -776,7 +797,7 @@ async function afterreponse() {
     
 
     if (currentsection==randomquestionarray.length) {
-      createboard([("score : "+currentscore)],"Fin !");
+      createboard([("score : "+currentscore+" / "+scoremax)],"Fin !");
     } else {
       globalavancement=0;
       createquestion();

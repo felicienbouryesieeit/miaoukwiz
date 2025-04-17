@@ -1,0 +1,720 @@
+[
+  {
+    "question": "Quel est le temps du verbe dans la phrase : « Il avait mangé avant de partir » ?",
+    "bonne_reponse": "Plus-que-parfait",
+    "mauvaise_reponse_1": "Passé composé",
+    "mauvaise_reponse_2": "Futur antérieur",
+    "mauvaise_reponse_3": "Imparfait"
+  },
+  {
+    "question": "Quel mot est un synonyme du mot « joyeux » ?",
+    "bonne_reponse": "Heureux",
+    "mauvaise_reponse_1": "Triste",
+    "mauvaise_reponse_2": "Fâché",
+    "mauvaise_reponse_3": "Inquiet"
+  },
+  {
+    "question": "Quel est le féminin du mot « acteur » ?",
+    "bonne_reponse": "Actrice",
+    "mauvaise_reponse_1": "Acteure",
+    "mauvaise_reponse_2": "Acteuse",
+    "mauvaise_reponse_3": "Acteurette"
+  },
+  {
+    "question": "Quel signe de ponctuation termine une phrase interrogative ?",
+    "bonne_reponse": "Le point d’interrogation",
+    "mauvaise_reponse_1": "Le point",
+    "mauvaise_reponse_2": "La virgule",
+    "mauvaise_reponse_3": "Le point-virgule"
+  },
+  {
+    "question": "Combien y a-t-il de lettres dans l’alphabet français ?",
+    "bonne_reponse": "26",
+    "mauvaise_reponse_1": "24",
+    "mauvaise_reponse_2": "28",
+    "mauvaise_reponse_3": "30"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Quel est l’auteur du roman « Les Misérables » ?",
+    "bonne_reponse": "Victor Hugo",
+    "mauvaise_reponse_1": "Émile Zola",
+    "mauvaise_reponse_2": "Albert Camus",
+    "mauvaise_reponse_3": "Gustave Flaubert"
+  },
+  {
+    "question": "Quel est l'infinitif du verbe conjugué « ils vinrent » ?",
+    "bonne_reponse": "Venir",
+    "mauvaise_reponse_1": "Vaincre",
+    "mauvaise_reponse_2": "Vendre",
+    "mauvaise_reponse_3": "Vivre"
+  },
+  {
+    "question": "Comment appelle-t-on un mot qui a le sens opposé d’un autre ?",
+    "bonne_reponse": "Un antonyme",
+    "mauvaise_reponse_1": "Un synonyme",
+    "mauvaise_reponse_2": "Un homonyme",
+    "mauvaise_reponse_3": "Un acronyme"
+  },
+  {
+    "question": "Quel est le genre du mot « problème » ?",
+    "bonne_reponse": "Masculin",
+    "mauvaise_reponse_1": "Féminin",
+    "mauvaise_reponse_2": "Neutre",
+    "mauvaise_reponse_3": "Variable"
+  },
+  {
+    "question": "Quel est le participe passé du verbe « naître » ?",
+    "bonne_reponse": "Né",
+    "mauvaise_reponse_1": "Naissu",
+    "mauvaise_reponse_2": "Naité",
+    "mauvaise_reponse_3": "Néé"
+  },
+  {
+    "question": "Quel célèbre auteur a écrit « Le Petit Prince » ?",
+    "bonne_reponse": "Antoine de Saint-Exupéry",
+    "mauvaise_reponse_1": "Jean de La Fontaine",
+    "mauvaise_reponse_2": "Jules Verne",
+    "mauvaise_reponse_3": "Marcel Proust"
+  },
+  {
+    "question": "Quelle figure de style consiste à exagérer ?",
+    "bonne_reponse": "L’hyperbole",
+    "mauvaise_reponse_1": "La métaphore",
+    "mauvaise_reponse_2": "L’euphémisme",
+    "mauvaise_reponse_3": "L’ellipse"
+  },
+  {
+    "question": "Quel temps utilise-t-on pour exprimer une action incertaine ou souhaitée ?",
+    "bonne_reponse": "Le subjonctif",
+    "mauvaise_reponse_1": "L’indicatif",
+    "mauvaise_reponse_2": "L’impératif",
+    "mauvaise_reponse_3": "Le conditionnel passé"
+  },
+  {
+    "question": "Quel est le nom de l’ensemble des mots d’une langue ?",
+    "bonne_reponse": "Le lexique",
+    "mauvaise_reponse_1": "La grammaire",
+    "mauvaise_reponse_2": "La syntaxe",
+    "mauvaise_reponse_3": "L’orthographe"
+  },
+  {
+    "question": "Quelle est la terminaison du verbe « finir » au présent, à la 1ʳᵉ personne du pluriel ?",
+    "bonne_reponse": "Finissons",
+    "mauvaise_reponse_1": "Finirons",
+    "mauvaise_reponse_2": "Finissont",
+    "mauvaise_reponse_3": "Finitions"
+  },
+  {
+    "question": "Quel auteur a écrit « Germinal » ?",
+    "bonne_reponse": "Émile Zola",
+    "mauvaise_reponse_1": "Honoré de Balzac",
+    "mauvaise_reponse_2": "Victor Hugo",
+    "mauvaise_reponse_3": "Guy de Maupassant"
+  },
+  {
+    "question": "Comment s’appelle le récit de la vie d’une personne écrit par elle-même ?",
+    "bonne_reponse": "Une autobiographie",
+    "mauvaise_reponse_1": "Une biographie",
+    "mauvaise_reponse_2": "Un journal",
+    "mauvaise_reponse_3": "Un témoignage"
+  },
+  {
+    "question": "Quel mot complète correctement la phrase : « Il a beaucoup ... travail. » ?",
+    "bonne_reponse": "De",
+    "mauvaise_reponse_1": "Du",
+    "mauvaise_reponse_2": "Des",
+    "mauvaise_reponse_3": "Le"
+  },
+  {
+    "question": "Quel mot est un adverbe ?",
+    "bonne_reponse": "Rapidement",
+    "mauvaise_reponse_1": "Rapide",
+    "mauvaise_reponse_2": "Rapidité",
+    "mauvaise_reponse_3": "Rapider"
+  },
+  {
+    "question": "Quelle est la nature du mot « chacun » ?",
+    "bonne_reponse": "Pronom indéfini",
+    "mauvaise_reponse_1": "Adverbe",
+    "mauvaise_reponse_2": "Nom propre",
+    "mauvaise_reponse_3": "Verbe"
+  },
+  {
+    "question": "Quel est le féminin du mot « maître » ?",
+    "bonne_reponse": "Maîtresse",
+    "mauvaise_reponse_1": "Maîtreuse",
+    "mauvaise_reponse_2": "Maîtresseuse",
+    "mauvaise_reponse_3": "Maîtrette"
+  },
+  {
+    "question": "Comment s’appelle une répétition volontaire d’un mot en début de phrase ?",
+    "bonne_reponse": "Une anaphore",
+    "mauvaise_reponse_1": "Une allitération",
+    "mauvaise_reponse_2": "Une métaphore",
+    "mauvaise_reponse_3": "Une hyperbole"
+  },
+  {
+    "question": "Quel auteur est connu pour ses fables mettant en scène des animaux ?",
+    "bonne_reponse": "Jean de La Fontaine",
+    "mauvaise_reponse_1": "Jean Racine",
+    "mauvaise_reponse_2": "Molière",
+    "mauvaise_reponse_3": "Boileau"
+  },
+  {
+    "question": "Quelle est la terminaison du verbe « chanter » au futur simple, 2ᵉ personne du singulier ?",
+    "bonne_reponse": "Tu chanteras",
+    "mauvaise_reponse_1": "Tu chantes",
+    "mauvaise_reponse_2": "Tu chantais",
+    "mauvaise_reponse_3": "Tu chanterasais"
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot « lentement » ?",
+    "bonne_reponse": "Adverbe",
+    "mauvaise_reponse_1": "Adjectif",
+    "mauvaise_reponse_2": "Nom",
+    "mauvaise_reponse_3": "Verbe"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Quel est le synonyme du mot « intelligent » ?",
+    "bonne_reponse": "Brillant",
+    "mauvaise_reponse_1": "Lent",
+    "mauvaise_reponse_2": "Distrait",
+    "mauvaise_reponse_3": "Ignorant"
+  },
+  {
+    "question": "Quel est l’auteur de « À la recherche du temps perdu » ?",
+    "bonne_reponse": "Marcel Proust",
+    "mauvaise_reponse_1": "Albert Camus",
+    "mauvaise_reponse_2": "François Mauriac",
+    "mauvaise_reponse_3": "Paul Valéry"
+  },
+  {
+    "question": "Quelle est la fonction du mot « maison » dans la phrase : « Je rentre à la maison » ?",
+    "bonne_reponse": "Complément circonstanciel de lieu",
+    "mauvaise_reponse_1": "COD",
+    "mauvaise_reponse_2": "Sujet",
+    "mauvaise_reponse_3": "Attribut du sujet"
+  },
+  {
+    "question": "Quel genre théâtral se caractérise par des situations comiques et souvent absurdes ?",
+    "bonne_reponse": "La comédie",
+    "mauvaise_reponse_1": "La tragédie",
+    "mauvaise_reponse_2": "Le drame romantique",
+    "mauvaise_reponse_3": "La farce politique"
+  },
+  {
+    "question": "Quel est le nom du poème composé de 14 vers ?",
+    "bonne_reponse": "Un sonnet",
+    "mauvaise_reponse_1": "Une strophe",
+    "mauvaise_reponse_2": "Un quatrain",
+    "mauvaise_reponse_3": "Un tercet"
+  },
+  {
+    "question": "Quelle est la bonne orthographe ?",
+    "bonne_reponse": "Apparemment",
+    "mauvaise_reponse_1": "Apparement",
+    "mauvaise_reponse_2": "Apparament",
+    "mauvaise_reponse_3": "Aparemment"
+  },
+  {
+    "question": "Quel auteur a écrit « Le Cid » ?",
+    "bonne_reponse": "Pierre Corneille",
+    "mauvaise_reponse_1": "Jean Racine",
+    "mauvaise_reponse_2": "Molière",
+    "mauvaise_reponse_3": "Voltaire"
+  },
+  {
+    "question": "Quelle figure de style rapproche deux éléments avec « comme » ?",
+    "bonne_reponse": "La comparaison",
+    "mauvaise_reponse_1": "La métaphore",
+    "mauvaise_reponse_2": "La métonymie",
+    "mauvaise_reponse_3": "L’oxymore"
+  },
+  {
+    "question": "Comment appelle-t-on un récit court, souvent à chute ?",
+    "bonne_reponse": "Une nouvelle",
+    "mauvaise_reponse_1": "Un roman",
+    "mauvaise_reponse_2": "Une pièce",
+    "mauvaise_reponse_3": "Un essai"
+  },
+  {
+    "question": "Quel mot désigne un mot qui se prononce de la même manière qu’un autre mais n’a pas le même sens ?",
+    "bonne_reponse": "Un homophone",
+    "mauvaise_reponse_1": "Un synonyme",
+    "mauvaise_reponse_2": "Un antonyme",
+    "mauvaise_reponse_3": "Un acronyme"
+  },
+  {
+    "question": "Comment s’appelle une répétition de sons consonantiques ?",
+    "bonne_reponse": "Une allitération",
+    "mauvaise_reponse_1": "Une assonance",
+    "mauvaise_reponse_2": "Une métaphore",
+    "mauvaise_reponse_3": "Une comparaison"
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot « souvent » ?",
+    "bonne_reponse": "Adverbe",
+    "mauvaise_reponse_1": "Nom",
+    "mauvaise_reponse_2": "Verbe",
+    "mauvaise_reponse_3": "Adjectif"
+  },
+  {
+    "question": "Quel est le pluriel de « cheval » ?",
+    "bonne_reponse": "Chevaux",
+    "mauvaise_reponse_1": "Chevals",
+    "mauvaise_reponse_2": "Chevales",
+    "mauvaise_reponse_3": "Chevalz"
+  },
+  {
+    "question": "Quelle époque littéraire est marquée par les auteurs Hugo, Balzac et Dumas ?",
+    "bonne_reponse": "Le romantisme",
+    "mauvaise_reponse_1": "Le classicisme",
+    "mauvaise_reponse_2": "Les Lumières",
+    "mauvaise_reponse_3": "Le symbolisme"
+  },
+  {
+    "question": "Comment s’appelle un mot qui imite un son ?",
+    "bonne_reponse": "Une onomatopée",
+    "mauvaise_reponse_1": "Une allitération",
+    "mauvaise_reponse_2": "Une interjection",
+    "mauvaise_reponse_3": "Une exclamation"
+  },
+  {
+    "question": "Quel est l’auteur de « Candide » ?",
+    "bonne_reponse": "Voltaire",
+    "mauvaise_reponse_1": "Rousseau",
+    "mauvaise_reponse_2": "Diderot",
+    "mauvaise_reponse_3": "Molière"
+  },
+  {
+    "question": "Quel est l’adjectif qualificatif dans la phrase : « Le ciel bleu est magnifique » ?",
+    "bonne_reponse": "Bleu",
+    "mauvaise_reponse_1": "Ciel",
+    "mauvaise_reponse_2": "Magnifique",
+    "mauvaise_reponse_3": "Est"
+  },
+  {
+    "question": "Quel mot est un pronom personnel ?",
+    "bonne_reponse": "Nous",
+    "mauvaise_reponse_1": "Leur",
+    "mauvaise_reponse_2": "Chaque",
+    "mauvaise_reponse_3": "Beaucoup"
+  },
+  {
+    "question": "Quel écrivain du XXe siècle a reçu le prix Nobel de littérature en 1957 ?",
+    "bonne_reponse": "Albert Camus",
+    "mauvaise_reponse_1": "Jean-Paul Sartre",
+    "mauvaise_reponse_2": "Boris Vian",
+    "mauvaise_reponse_3": "André Gide"
+  },
+  {
+    "question": "Dans quelle œuvre trouve-t-on le personnage de Jean Valjean ?",
+    "bonne_reponse": "Les Misérables",
+    "mauvaise_reponse_1": "Notre-Dame de Paris",
+    "mauvaise_reponse_2": "L’Éducation sentimentale",
+    "mauvaise_reponse_3": "Le Rouge et le Noir"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Quel est le temps du verbe dans la phrase : « Quand il sera parti, nous fermerons la porte » ?",
+    "bonne_reponse": "Futur antérieur",
+    "mauvaise_reponse_1": "Passé composé",
+    "mauvaise_reponse_2": "Imparfait",
+    "mauvaise_reponse_3": "Futur simple"
+  },
+  {
+    "question": "Quel est le contraire du mot « avare » ?",
+    "bonne_reponse": "Généreux",
+    "mauvaise_reponse_1": "Pauvre",
+    "mauvaise_reponse_2": "Méchant",
+    "mauvaise_reponse_3": "Courageux"
+  },
+  {
+    "question": "Quel écrivain est l’auteur de « L’Étranger » ?",
+    "bonne_reponse": "Albert Camus",
+    "mauvaise_reponse_1": "Jean-Paul Sartre",
+    "mauvaise_reponse_2": "André Gide",
+    "mauvaise_reponse_3": "Romain Gary"
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot « chaque » ?",
+    "bonne_reponse": "Déterminant indéfini",
+    "mauvaise_reponse_1": "Pronom personnel",
+    "mauvaise_reponse_2": "Adverbe",
+    "mauvaise_reponse_3": "Nom commun"
+  },
+  {
+    "question": "Quelle est la figure de style qui consiste à exagérer fortement ?",
+    "bonne_reponse": "Hyperbole",
+    "mauvaise_reponse_1": "Litote",
+    "mauvaise_reponse_2": "Antithèse",
+    "mauvaise_reponse_3": "Anaphore"
+  },
+  {
+    "question": "Quel est le genre du mot « après-midi » ?",
+    "bonne_reponse": "Masculin ou féminin",
+    "mauvaise_reponse_1": "Toujours féminin",
+    "mauvaise_reponse_2": "Toujours masculin",
+    "mauvaise_reponse_3": "Neutre"
+  },
+  {
+    "question": "Qui a écrit « Le Père Goriot » ?",
+    "bonne_reponse": "Honoré de Balzac",
+    "mauvaise_reponse_1": "Gustave Flaubert",
+    "mauvaise_reponse_2": "Émile Zola",
+    "mauvaise_reponse_3": "Alphonse Daudet"
+  },
+  {
+    "question": "Quel est le féminin du mot « boulanger » ?",
+    "bonne_reponse": "Boulangère",
+    "mauvaise_reponse_1": "Boulangeuse",
+    "mauvaise_reponse_2": "Boulange",
+    "mauvaise_reponse_3": "Boulangé"
+  },
+  {
+    "question": "Quel est le temps du verbe « nous aurions aimé » ?",
+    "bonne_reponse": "Conditionnel passé",
+    "mauvaise_reponse_1": "Futur antérieur",
+    "mauvaise_reponse_2": "Plus-que-parfait",
+    "mauvaise_reponse_3": "Passé antérieur"
+  },
+  {
+    "question": "Quel écrivain du XVIIe siècle est célèbre pour ses pièces comme « Tartuffe » ou « Le Misanthrope » ?",
+    "bonne_reponse": "Molière",
+    "mauvaise_reponse_1": "Corneille",
+    "mauvaise_reponse_2": "Racine",
+    "mauvaise_reponse_3": "La Bruyère"
+  },
+  {
+    "question": "Quel mot est un adjectif qualificatif ?",
+    "bonne_reponse": "Rouge",
+    "mauvaise_reponse_1": "Rapidement",
+    "mauvaise_reponse_2": "Rougir",
+    "mauvaise_reponse_3": "Rougeur"
+  },
+  {
+    "question": "Comment appelle-t-on un groupe de vers dans un poème ?",
+    "bonne_reponse": "Une strophe",
+    "mauvaise_reponse_1": "Un chapitre",
+    "mauvaise_reponse_2": "Une prose",
+    "mauvaise_reponse_3": "Un paragraphe"
+  },
+  {
+    "question": "Quelle est la terminaison des verbes du 3e groupe au présent, 1ère personne du singulier ?",
+    "bonne_reponse": "-s",
+    "mauvaise_reponse_1": "-e",
+    "mauvaise_reponse_2": "-is",
+    "mauvaise_reponse_3": "-ai"
+  },
+  {
+    "question": "Quel est le nom du mouvement littéraire de Baudelaire ?",
+    "bonne_reponse": "Symbolisme",
+    "mauvaise_reponse_1": "Romantisme",
+    "mauvaise_reponse_2": "Surréalisme",
+    "mauvaise_reponse_3": "Réalisme"
+  },
+  {
+    "question": "Quel est le mot intrus ?",
+    "bonne_reponse": "Chanter",
+    "mauvaise_reponse_1": "Lire",
+    "mauvaise_reponse_2": "Manger",
+    "mauvaise_reponse_3": "Livre"
+  },
+  {
+    "question": "Quel est le nom du registre littéraire qui vise à faire rire ?",
+    "bonne_reponse": "Comique",
+    "mauvaise_reponse_1": "Tragique",
+    "mauvaise_reponse_2": "Épique",
+    "mauvaise_reponse_3": "Lyrique"
+  },
+  {
+    "question": "Quel mot contient une faute d’orthographe ?",
+    "bonne_reponse": "Inpressionant",
+    "mauvaise_reponse_1": "Impressionnant",
+    "mauvaise_reponse_2": "Agréable",
+    "mauvaise_reponse_3": "Sympathique"
+  },
+  {
+    "question": "Quel est le mode verbal utilisé pour donner un ordre ?",
+    "bonne_reponse": "Impératif",
+    "mauvaise_reponse_1": "Indicatif",
+    "mauvaise_reponse_2": "Subjonctif",
+    "mauvaise_reponse_3": "Conditionnel"
+  },
+  {
+    "question": "Quel est l’auteur de « Une vie » ?",
+    "bonne_reponse": "Guy de Maupassant",
+    "mauvaise_reponse_1": "Gustave Flaubert",
+    "mauvaise_reponse_2": "Émile Zola",
+    "mauvaise_reponse_3": "Stendhal"
+  },
+  {
+    "question": "Dans la phrase « Il mange des pommes », quel est le COD ?",
+    "bonne_reponse": "Des pommes",
+    "mauvaise_reponse_1": "Il",
+    "mauvaise_reponse_2": "Mange",
+    "mauvaise_reponse_3": "Pommes"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "question": "Quel est l'auteur de « Germinal » ?",
+    "bonne_reponse": "Émile Zola",
+    "mauvaise_reponse_1": "Victor Hugo",
+    "mauvaise_reponse_2": "Stendhal",
+    "mauvaise_reponse_3": "Alphonse Daudet"
+  },
+  {
+    "question": "Quelle figure de style consiste à attribuer des caractéristiques humaines à un objet ?",
+    "bonne_reponse": "La personnification",
+    "mauvaise_reponse_1": "La comparaison",
+    "mauvaise_reponse_2": "L’allégorie",
+    "mauvaise_reponse_3": "L’hyperbole"
+  },
+  {
+    "question": "Comment s’appelle l’auteur de « L’Avare » ?",
+    "bonne_reponse": "Molière",
+    "mauvaise_reponse_1": "Racine",
+    "mauvaise_reponse_2": "Corneille",
+    "mauvaise_reponse_3": "Voltaire"
+  },
+  {
+    "question": "Quel mot est un adverbe ?",
+    "bonne_reponse": "Lentement",
+    "mauvaise_reponse_1": "Lenteur",
+    "mauvaise_reponse_2": "Lent",
+    "mauvaise_reponse_3": "Lente"
+  },
+  {
+    "question": "Quel écrivain a écrit « Le Rouge et le Noir » ?",
+    "bonne_reponse": "Stendhal",
+    "mauvaise_reponse_1": "Flaubert",
+    "mauvaise_reponse_2": "Zola",
+    "mauvaise_reponse_3": "Maupassant"
+  },
+  {
+    "question": "Que signifie le mot « antonyme » ?",
+    "bonne_reponse": "Mot de sens contraire",
+    "mauvaise_reponse_1": "Mot de même sens",
+    "mauvaise_reponse_2": "Mot qui a plusieurs sens",
+    "mauvaise_reponse_3": "Mot inventé"
+  },
+  {
+    "question": "Quel est le type de la phrase : « Viens ici tout de suite ! » ?",
+    "bonne_reponse": "Injonctive",
+    "mauvaise_reponse_1": "Interrogative",
+    "mauvaise_reponse_2": "Déclarative",
+    "mauvaise_reponse_3": "Exclamative"
+  },
+  {
+    "question": "Quel est le registre dominant dans la poésie de Baudelaire ?",
+    "bonne_reponse": "Lyrique",
+    "mauvaise_reponse_1": "Comique",
+    "mauvaise_reponse_2": "Épique",
+    "mauvaise_reponse_3": "Didactique"
+  },
+  {
+    "question": "Quel mot est mal orthographié ?",
+    "bonne_reponse": "Immencité",
+    "mauvaise_reponse_1": "Immense",
+    "mauvaise_reponse_2": "Intensité",
+    "mauvaise_reponse_3": "Sérénité"
+  },
+  {
+    "question": "Quel est le participe passé du verbe « écrire » ?",
+    "bonne_reponse": "Écrit",
+    "mauvaise_reponse_1": "Écrir",
+    "mauvaise_reponse_2": "Écrité",
+    "mauvaise_reponse_3": "Écrivant"
+  },
+  {
+    "question": "Quelle est la nature grammaticale du mot « bonheur » ?",
+    "bonne_reponse": "Nom commun",
+    "mauvaise_reponse_1": "Adjectif",
+    "mauvaise_reponse_2": "Adverbe",
+    "mauvaise_reponse_3": "Verbe"
+  },
+  {
+    "question": "Qui a écrit « Les Fleurs du mal » ?",
+    "bonne_reponse": "Charles Baudelaire",
+    "mauvaise_reponse_1": "Arthur Rimbaud",
+    "mauvaise_reponse_2": "Paul Verlaine",
+    "mauvaise_reponse_3": "Guillaume Apollinaire"
+  },
+  {
+    "question": "Quel est le contraire de « timide » ?",
+    "bonne_reponse": "Audacieux",
+    "mauvaise_reponse_1": "Solitaire",
+    "mauvaise_reponse_2": "Sérieux",
+    "mauvaise_reponse_3": "Discret"
+  },
+  {
+    "question": "Quel temps exprime une action antérieure à une autre dans le passé ?",
+    "bonne_reponse": "Plus-que-parfait",
+    "mauvaise_reponse_1": "Passé simple",
+    "mauvaise_reponse_2": "Futur antérieur",
+    "mauvaise_reponse_3": "Conditionnel"
+  },
+  {
+    "question": "Quel écrivain a créé le personnage de Meursault ?",
+    "bonne_reponse": "Albert Camus",
+    "mauvaise_reponse_1": "Jean-Paul Sartre",
+    "mauvaise_reponse_2": "Simone de Beauvoir",
+    "mauvaise_reponse_3": "Boris Vian"
+  },
+  {
+    "question": "Quel est le synonyme de « joyeux » ?",
+    "bonne_reponse": "Gai",
+    "mauvaise_reponse_1": "Triste",
+    "mauvaise_reponse_2": "Fatigué",
+    "mauvaise_reponse_3": "Nerveux"
+  },
+  {
+    "question": "Quel genre littéraire raconte des faits réels ?",
+    "bonne_reponse": "Le récit autobiographique",
+    "mauvaise_reponse_1": "Le roman fantastique",
+    "mauvaise_reponse_2": "La légende",
+    "mauvaise_reponse_3": "La fable"
+  },
+  {
+    "question": "Quel est le pluriel de « bijou » ?",
+    "bonne_reponse": "Bijoux",
+    "mauvaise_reponse_1": "Bijous",
+    "mauvaise_reponse_2": "Bijouts",
+    "mauvaise_reponse_3": "Bijousses"
+  },
+  {
+    "question": "Quel mot est un nom propre ?",
+    "bonne_reponse": "Paris",
+    "mauvaise_reponse_1": "Ville",
+    "mauvaise_reponse_2": "Capitale",
+    "mauvaise_reponse_3": "Pays"
+  },
+  {
+    "question": "Qui a écrit « Le Petit Prince » ?",
+    "bonne_reponse": "Antoine de Saint-Exupéry",
+    "mauvaise_reponse_1": "Jules Verne",
+    "mauvaise_reponse_2": "Jean de La Fontaine",
+    "mauvaise_reponse_3": "Victor Hugo"
+  }
+]

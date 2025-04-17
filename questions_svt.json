@@ -1,0 +1,651 @@
+[
+  {
+      "question": "Quel est l'organe principal de la respiration chez l'être humain ?",
+      "bonne_reponse": "Les poumons",
+      "mauvaise_reponse_1": "Le cœur",
+      "mauvaise_reponse_2": "Le foie",
+      "mauvaise_reponse_3": "L'estomac"
+  },
+  {
+      "question": "Quelle est la molécule responsable du transport de l’oxygène dans le sang ?",
+      "bonne_reponse": "L’hémoglobine",
+      "mauvaise_reponse_1": "L’adrénaline",
+      "mauvaise_reponse_2": "La chlorophylle",
+      "mauvaise_reponse_3": "La myosine"
+  },
+  {
+      "question": "Comment appelle-t-on l’union d’un spermatozoïde et d’un ovule ?",
+      "bonne_reponse": "La fécondation",
+      "mauvaise_reponse_1": "La mitose",
+      "mauvaise_reponse_2": "La photosynthèse",
+      "mauvaise_reponse_3": "La digestion"
+  },
+  {
+      "question": "Quel est le gaz majoritairement rejeté lors de la respiration cellulaire ?",
+      "bonne_reponse": "Le dioxyde de carbone",
+      "mauvaise_reponse_1": "Le dioxygène",
+      "mauvaise_reponse_2": "L’azote",
+      "mauvaise_reponse_3": "L’hélium"
+  },
+  {
+      "question": "Quel règne regroupe les êtres vivants capables de faire la photosynthèse ?",
+      "bonne_reponse": "Le règne végétal",
+      "mauvaise_reponse_1": "Le règne animal",
+      "mauvaise_reponse_2": "Le règne fongique",
+      "mauvaise_reponse_3": "Le règne bactérien"
+  },
+  {
+      "question": "Quelle est la planète considérée comme habitable pour l’Homme ?",
+      "bonne_reponse": "La Terre",
+      "mauvaise_reponse_1": "Mars",
+      "mauvaise_reponse_2": "Vénus",
+      "mauvaise_reponse_3": "Jupiter"
+  },
+   {
+        "question": "Quel organe pompe le sang dans tout le corps humain ?",
+        "bonne_reponse": "Le cœur",
+        "mauvaise_reponse_1": "Le foie",
+        "mauvaise_reponse_2": "Le rein",
+        "mauvaise_reponse_3": "Les poumons"
+    },
+    {
+        "question": "Quelle est l’unité de base de tout être vivant ?",
+        "bonne_reponse": "La cellule",
+        "mauvaise_reponse_1": "Le tissu",
+        "mauvaise_reponse_2": "L’atome",
+        "mauvaise_reponse_3": "L’organe"
+    },
+    {
+        "question": "Quel gaz est absorbé par les plantes lors de la photosynthèse ?",
+        "bonne_reponse": "Le dioxyde de carbone",
+        "mauvaise_reponse_1": "Le dioxygène",
+        "mauvaise_reponse_2": "L’azote",
+        "mauvaise_reponse_3": "L’hydrogène"
+    },
+    {
+        "question": "Quel organe permet la filtration du sang ?",
+        "bonne_reponse": "Le rein",
+        "mauvaise_reponse_1": "Le cœur",
+        "mauvaise_reponse_2": "L’intestin",
+        "mauvaise_reponse_3": "La vessie"
+    },
+    {
+        "question": "Comment appelle-t-on l’ensemble des os du corps humain ?",
+        "bonne_reponse": "Le squelette",
+        "mauvaise_reponse_1": "Le cartilage",
+        "mauvaise_reponse_2": "La moelle",
+        "mauvaise_reponse_3": "Le système nerveux"
+    },
+    {
+        "question": "Quelle planète est la seule connue à abriter la vie ?",
+        "bonne_reponse": "La Terre",
+        "mauvaise_reponse_1": "Mars",
+        "mauvaise_reponse_2": "Vénus",
+        "mauvaise_reponse_3": "Mercure"
+    },
+    {
+        "question": "Quel est le rôle des globules blancs ?",
+        "bonne_reponse": "Défendre le corps contre les infections",
+        "mauvaise_reponse_1": "Transporter l’oxygène",
+        "mauvaise_reponse_2": "Coaguler le sang",
+        "mauvaise_reponse_3": "Produire de l’énergie"
+    },
+    {
+        "question": "Quelle structure permet aux plantes d’absorber l’eau ?",
+        "bonne_reponse": "Les racines",
+        "mauvaise_reponse_1": "Les feuilles",
+        "mauvaise_reponse_2": "La tige",
+        "mauvaise_reponse_3": "Les fleurs"
+    },
+    {
+        "question": "Quel phénomène permet aux espèces d’évoluer ?",
+        "bonne_reponse": "La sélection naturelle",
+        "mauvaise_reponse_1": "La fécondation",
+        "mauvaise_reponse_2": "La reproduction asexuée",
+        "mauvaise_reponse_3": "La mutation génétique aléatoire"
+    },
+    {
+        "question": "Quel est le principal composant du sang ?",
+        "bonne_reponse": "Le plasma",
+        "mauvaise_reponse_1": "Les globules rouges",
+        "mauvaise_reponse_2": "Les globules blancs",
+        "mauvaise_reponse_3": "Les plaquettes"
+    },
+    {
+        "question": "Quel organe est responsable de la digestion des graisses ?",
+        "bonne_reponse": "Le foie",
+        "mauvaise_reponse_1": "Le cœur",
+        "mauvaise_reponse_2": "Le pancréas",
+        "mauvaise_reponse_3": "Le rein"
+    },
+    {
+        "question": "Quel est l’organe reproducteur mâle chez les fleurs ?",
+        "bonne_reponse": "L’étamine",
+        "mauvaise_reponse_1": "Le pistil",
+        "mauvaise_reponse_2": "Le pétale",
+        "mauvaise_reponse_3": "Le sépale"
+    },
+    {
+        "question": "Où a lieu la respiration cellulaire ?",
+        "bonne_reponse": "Dans les mitochondries",
+        "mauvaise_reponse_1": "Dans le noyau",
+        "mauvaise_reponse_2": "Dans les chloroplastes",
+        "mauvaise_reponse_3": "Dans la membrane"
+    },
+    {
+        "question": "Quelle molécule est produite par les plantes grâce à la photosynthèse ?",
+        "bonne_reponse": "Le glucose",
+        "mauvaise_reponse_1": "Le dioxyde de carbone",
+        "mauvaise_reponse_2": "Le méthane",
+        "mauvaise_reponse_3": "Le nitrate"
+    },
+    {
+        "question": "Quel est le rôle de la moelle osseuse ?",
+        "bonne_reponse": "Produire les cellules sanguines",
+        "mauvaise_reponse_1": "Stocker le calcium",
+        "mauvaise_reponse_2": "Protéger le cerveau",
+        "mauvaise_reponse_3": "Réguler les hormones"
+    },
+    {
+        "question": "Quel type de reproduction implique un seul parent ?",
+        "bonne_reponse": "La reproduction asexuée",
+        "mauvaise_reponse_1": "La reproduction sexuée",
+        "mauvaise_reponse_2": "La pollinisation",
+        "mauvaise_reponse_3": "La fécondation croisée"
+    },
+    {
+        "question": "Comment appelle-t-on un animal qui mange à la fois des plantes et de la viande ?",
+        "bonne_reponse": "Un omnivore",
+        "mauvaise_reponse_1": "Un herbivore",
+        "mauvaise_reponse_2": "Un carnivore",
+        "mauvaise_reponse_3": "Un insectivore"
+    },
+    {
+        "question": "Quel élément est essentiel à la formation des os ?",
+        "bonne_reponse": "Le calcium",
+        "mauvaise_reponse_1": "Le fer",
+        "mauvaise_reponse_2": "Le sodium",
+        "mauvaise_reponse_3": "Le potassium"
+    },
+    {
+        "question": "Quelle est la principale fonction des feuilles chez les plantes ?",
+        "bonne_reponse": "Faire la photosynthèse",
+        "mauvaise_reponse_1": "Absorber l’eau",
+        "mauvaise_reponse_2": "Protéger les racines",
+        "mauvaise_reponse_3": "Transporter les graines"
+    },
+    {
+        "question": "Comment s’appelle l’étude des fossiles ?",
+        "bonne_reponse": "La paléontologie",
+        "mauvaise_reponse_1": "La biologie marine",
+        "mauvaise_reponse_2": "L’écologie",
+        "mauvaise_reponse_3": "La géologie"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+            "question": "Quel est le principal gaz responsable de l'effet de serre ?",
+            "bonne_reponse": "Le dioxyde de carbone",
+            "mauvaise_reponse_1": "Le dioxygène",
+            "mauvaise_reponse_2": "L’hydrogène",
+            "mauvaise_reponse_3": "L’hélium"
+        },
+        {
+            "question": "Quelle est la principale source d’énergie pour la Terre ?",
+            "bonne_reponse": "Le Soleil",
+            "mauvaise_reponse_1": "Le vent",
+            "mauvaise_reponse_2": "Le pétrole",
+            "mauvaise_reponse_3": "La Lune"
+        },
+        {
+            "question": "Quel est le rôle du pancréas ?",
+            "bonne_reponse": "Réguler le taux de sucre dans le sang",
+            "mauvaise_reponse_1": "Filtrer les déchets",
+            "mauvaise_reponse_2": "Pomper le sang",
+            "mauvaise_reponse_3": "Stocker l’oxygène"
+        },
+        {
+            "question": "Quel type de roche est formé par refroidissement du magma ?",
+            "bonne_reponse": "Roche magmatique",
+            "mauvaise_reponse_1": "Roche sédimentaire",
+            "mauvaise_reponse_2": "Roche métamorphique",
+            "mauvaise_reponse_3": "Roche calcaire"
+        },
+        {
+            "question": "Quel organe produit l’urine ?",
+            "bonne_reponse": "Le rein",
+            "mauvaise_reponse_1": "La vessie",
+            "mauvaise_reponse_2": "Le foie",
+            "mauvaise_reponse_3": "L’intestin"
+        },
+        {
+            "question": "Quel est le rôle de la chlorophylle ?",
+            "bonne_reponse": "Capturer l’énergie lumineuse",
+            "mauvaise_reponse_1": "Absorber l’oxygène",
+            "mauvaise_reponse_2": "Produire du sucre",
+            "mauvaise_reponse_3": "Filtrer l’eau"
+        },
+        {
+            "question": "Que signifie ADN ?",
+            "bonne_reponse": "Acide désoxyribonucléique",
+            "mauvaise_reponse_1": "Acide nucléique diffus",
+            "mauvaise_reponse_2": "Appareil de défense naturelle",
+            "mauvaise_reponse_3": "Agent de nutrition"
+        },
+        {
+            "question": "Comment s’appelle le changement de l’état liquide à gazeux ?",
+            "bonne_reponse": "La vaporisation",
+            "mauvaise_reponse_1": "La condensation",
+            "mauvaise_reponse_2": "La solidification",
+            "mauvaise_reponse_3": "La sublimation"
+        },
+        {
+            "question": "Quel organe contrôle le système nerveux ?",
+            "bonne_reponse": "Le cerveau",
+            "mauvaise_reponse_1": "Le cœur",
+            "mauvaise_reponse_2": "Le foie",
+            "mauvaise_reponse_3": "La moelle osseuse"
+        },
+        {
+            "question": "Quel est le principal composant de l’air ?",
+            "bonne_reponse": "L’azote",
+            "mauvaise_reponse_1": "Le dioxygène",
+            "mauvaise_reponse_2": "Le dioxyde de carbone",
+            "mauvaise_reponse_3": "L’hélium"
+        },
+        {
+            "question": "Comment se nomme la couche externe de la Terre ?",
+            "bonne_reponse": "La croûte terrestre",
+            "mauvaise_reponse_1": "Le noyau externe",
+            "mauvaise_reponse_2": "Le manteau supérieur",
+            "mauvaise_reponse_3": "La lithosphère"
+        },
+        {
+            "question": "Quelle est la fonction des stomates chez les plantes ?",
+            "bonne_reponse": "Échanger des gaz",
+            "mauvaise_reponse_1": "Fixer la plante au sol",
+            "mauvaise_reponse_2": "Absorber l’eau",
+            "mauvaise_reponse_3": "Produire des graines"
+        },
+        {
+            "question": "Quel est le rôle des enzymes digestives ?",
+            "bonne_reponse": "Décomposer les aliments",
+            "mauvaise_reponse_1": "Produire de l’énergie",
+            "mauvaise_reponse_2": "Transporter les nutriments",
+            "mauvaise_reponse_3": "Filtrer le sang"
+        },
+        {
+            "question": "Que désigne le terme 'biodiversité' ?",
+            "bonne_reponse": "La variété des espèces vivantes",
+            "mauvaise_reponse_1": "La qualité de l’air",
+            "mauvaise_reponse_2": "La quantité de pluie",
+            "mauvaise_reponse_3": "Le climat d’une région"
+        },
+        {
+            "question": "Quel organe est touché par l’asthme ?",
+            "bonne_reponse": "Les bronches",
+            "mauvaise_reponse_1": "Le foie",
+            "mauvaise_reponse_2": "Le rein",
+            "mauvaise_reponse_3": "Le cœur"
+        },
+        {
+            "question": "Quelle est la forme de reproduction des bactéries ?",
+            "bonne_reponse": "La division cellulaire",
+            "mauvaise_reponse_1": "La fécondation",
+            "mauvaise_reponse_2": "La germination",
+            "mauvaise_reponse_3": "La pollinisation"
+        },
+        {
+            "question": "Quel est le nom du processus de formation des nuages ?",
+            "bonne_reponse": "La condensation",
+            "mauvaise_reponse_1": "L’évaporation",
+            "mauvaise_reponse_2": "La précipitation",
+            "mauvaise_reponse_3": "L’infiltration"
+        },
+        {
+            "question": "Que sont les chromosomes ?",
+            "bonne_reponse": "Des structures contenant l’ADN",
+            "mauvaise_reponse_1": "Des organes de reproduction",
+            "mauvaise_reponse_2": "Des protéines sanguines",
+            "mauvaise_reponse_3": "Des enzymes digestives"
+        },
+        {
+            "question": "Quel est l’organe qui relie la mère au fœtus ?",
+            "bonne_reponse": "Le placenta",
+            "mauvaise_reponse_1": "L’utérus",
+            "mauvaise_reponse_2": "Le vagin",
+            "mauvaise_reponse_3": "Le cordon ombilical"
+        },
+        {
+            "question": "Quel est l’élément chimique central dans une molécule d’ADN ?",
+            "bonne_reponse": "Le phosphore",
+            "mauvaise_reponse_1": "Le calcium",
+            "mauvaise_reponse_2": "Le fer",
+            "mauvaise_reponse_3": "Le potassium"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "question": "Quel est l’organe qui permet d’entendre les sons ?",
+            "bonne_reponse": "L’oreille",
+            "mauvaise_reponse_1": "Le nez",
+            "mauvaise_reponse_2": "La langue",
+            "mauvaise_reponse_3": "L’œil"
+        },
+        {
+            "question": "Quel est le rôle principal du système immunitaire ?",
+            "bonne_reponse": "Protéger le corps contre les infections",
+            "mauvaise_reponse_1": "Fabriquer des hormones",
+            "mauvaise_reponse_2": "Filtrer le sang",
+            "mauvaise_reponse_3": "Pomper le sang"
+        },
+        {
+            "question": "Quelle est la température moyenne du corps humain ?",
+            "bonne_reponse": "37°C",
+            "mauvaise_reponse_1": "35°C",
+            "mauvaise_reponse_2": "40°C",
+            "mauvaise_reponse_3": "34°C"
+        },
+        {
+            "question": "Quel est le nom des cellules reproductrices chez l’homme ?",
+            "bonne_reponse": "Les spermatozoïdes",
+            "mauvaise_reponse_1": "Les ovules",
+            "mauvaise_reponse_2": "Les neurones",
+            "mauvaise_reponse_3": "Les globules"
+        },
+        {
+            "question": "Comment s’appelle le phénomène qui fait que l’eau pénètre dans le sol ?",
+            "bonne_reponse": "L’infiltration",
+            "mauvaise_reponse_1": "L’évaporation",
+            "mauvaise_reponse_2": "La précipitation",
+            "mauvaise_reponse_3": "La condensation"
+        },
+        {
+            "question": "Qu’est-ce qu’un herbivore ?",
+            "bonne_reponse": "Un animal qui se nourrit de plantes",
+            "mauvaise_reponse_1": "Un animal qui mange de la viande",
+            "mauvaise_reponse_2": "Un animal qui vit dans l’eau",
+            "mauvaise_reponse_3": "Un animal qui vole"
+        },
+        {
+            "question": "Quel est le rôle de la salive dans la digestion ?",
+            "bonne_reponse": "Commencer la décomposition des aliments",
+            "mauvaise_reponse_1": "Neutraliser les acides",
+            "mauvaise_reponse_2": "Hydrater la langue",
+            "mauvaise_reponse_3": "Colorer les aliments"
+        },
+        {
+            "question": "Quelle partie du cerveau est responsable de l’équilibre ?",
+            "bonne_reponse": "Le cervelet",
+            "mauvaise_reponse_1": "Le tronc cérébral",
+            "mauvaise_reponse_2": "L’hypothalamus",
+            "mauvaise_reponse_3": "Le cortex"
+        },
+        {
+            "question": "Quelle est la principale cause des marées ?",
+            "bonne_reponse": "L’attraction gravitationnelle de la Lune",
+            "mauvaise_reponse_1": "La lumière du Soleil",
+            "mauvaise_reponse_2": "Le vent",
+            "mauvaise_reponse_3": "La température de l’eau"
+        },
+        {
+            "question": "Quelle est la principale fonction des racines chez une plante ?",
+            "bonne_reponse": "Absorber l’eau et les minéraux",
+            "mauvaise_reponse_1": "Faire la photosynthèse",
+            "mauvaise_reponse_2": "Produire des fruits",
+            "mauvaise_reponse_3": "Attirer les insectes"
+        },
+        {
+            "question": "Comment appelle-t-on un animal qui vit dans l’eau douce ?",
+            "bonne_reponse": "Un animal dulcicole",
+            "mauvaise_reponse_1": "Un animal marin",
+            "mauvaise_reponse_2": "Un animal terrestre",
+            "mauvaise_reponse_3": "Un animal halophile"
+        },
+        {
+            "question": "Qu’est-ce qu’un fossile ?",
+            "bonne_reponse": "Une trace ou un reste d’un organisme ancien",
+            "mauvaise_reponse_1": "Une roche volcanique",
+            "mauvaise_reponse_2": "Un animal marin vivant",
+            "mauvaise_reponse_3": "Une graine ancienne"
+        },
+        {
+            "question": "Qu’est-ce qu’un parasite ?",
+            "bonne_reponse": "Un organisme qui vit aux dépens d’un autre",
+            "mauvaise_reponse_1": "Un prédateur de petite taille",
+            "mauvaise_reponse_2": "Un microbe utile",
+            "mauvaise_reponse_3": "Un animal végétarien"
+        },
+        {
+            "question": "Comment appelle-t-on la transformation d’un têtard en grenouille ?",
+            "bonne_reponse": "La métamorphose",
+            "mauvaise_reponse_1": "La germination",
+            "mauvaise_reponse_2": "La fermentation",
+            "mauvaise_reponse_3": "La pollinisation"
+        },
+        {
+            "question": "Que produit un volcan lors d’une éruption ?",
+            "bonne_reponse": "De la lave",
+            "mauvaise_reponse_1": "Des tremblements de terre",
+            "mauvaise_reponse_2": "Des vagues",
+            "mauvaise_reponse_3": "Des éclairs"
+        },
+        {
+            "question": "Quel est le principal constituant des os ?",
+            "bonne_reponse": "Le calcium",
+            "mauvaise_reponse_1": "Le fer",
+            "mauvaise_reponse_2": "L’azote",
+            "mauvaise_reponse_3": "Le soufre"
+        },
+        {
+            "question": "Quel phénomène explique la rotation des saisons ?",
+            "bonne_reponse": "L’inclinaison de l’axe terrestre",
+            "mauvaise_reponse_1": "La distance à la Lune",
+            "mauvaise_reponse_2": "La forme de la Terre",
+            "mauvaise_reponse_3": "La rotation de la Lune"
+        },
+        {
+            "question": "Quel organe stocke la bile produite par le foie ?",
+            "bonne_reponse": "La vésicule biliaire",
+            "mauvaise_reponse_1": "Le pancréas",
+            "mauvaise_reponse_2": "L’estomac",
+            "mauvaise_reponse_3": "La rate"
+        },
+        {
+            "question": "Quelle est l’unité utilisée pour mesurer la pression sanguine ?",
+            "bonne_reponse": "Le millimètre de mercure (mmHg)",
+            "mauvaise_reponse_1": "Le Pascal",
+            "mauvaise_reponse_2": "Le Bar",
+            "mauvaise_reponse_3": "Le Joule"
+        },
+        {
+            "question": "Comment se nomme la première couche de défense du corps humain ?",
+            "bonne_reponse": "La peau",
+            "mauvaise_reponse_1": "Le sang",
+            "mauvaise_reponse_2": "Le foie",
+            "mauvaise_reponse_3": "Les muscles"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        {
+            "question": "Quel est le rôle des globules rouges ?",
+            "bonne_reponse": "Transporter l’oxygène",
+            "mauvaise_reponse_1": "Combattre les microbes",
+            "mauvaise_reponse_2": "Produire des hormones",
+            "mauvaise_reponse_3": "Digérer les aliments"
+        },
+        {
+            "question": "Quel est l’état physique de l’eau à 0°C ?",
+            "bonne_reponse": "Solide",
+            "mauvaise_reponse_1": "Gazeux",
+            "mauvaise_reponse_2": "Plasma",
+            "mauvaise_reponse_3": "Liquide"
+        },
+        {
+            "question": "Quelle molécule est produite pendant la photosynthèse ?",
+            "bonne_reponse": "Le dioxygène",
+            "mauvaise_reponse_1": "Le dioxyde de carbone",
+            "mauvaise_reponse_2": "L’eau",
+            "mauvaise_reponse_3": "Le méthane"
+        },
+        {
+            "question": "Quel est le nom scientifique des os du bras ?",
+            "bonne_reponse": "Humérus, radius, cubitus",
+            "mauvaise_reponse_1": "Fémur, tibia, péroné",
+            "mauvaise_reponse_2": "Crâne, mandibule, clavicules",
+            "mauvaise_reponse_3": "Scapula, sternum, sacrum"
+        },
+        {
+            "question": "Quel organe est responsable de la vision ?",
+            "bonne_reponse": "L’œil",
+            "mauvaise_reponse_1": "Le nez",
+            "mauvaise_reponse_2": "La peau",
+            "mauvaise_reponse_3": "La langue"
+        },
+        {
+            "question": "Comment appelle-t-on un animal qui mange de tout ?",
+            "bonne_reponse": "Omnivore",
+            "mauvaise_reponse_1": "Carnivore",
+            "mauvaise_reponse_2": "Herbivore",
+            "mauvaise_reponse_3": "Frugivore"
+        },
+        {
+            "question": "Quel est le principal rôle du cœur ?",
+            "bonne_reponse": "Faire circuler le sang",
+            "mauvaise_reponse_1": "Digérer les aliments",
+            "mauvaise_reponse_2": "Respirer",
+            "mauvaise_reponse_3": "Produire des cellules"
+        },
+        {
+            "question": "Quelle glande contrôle de nombreuses fonctions hormonales ?",
+            "bonne_reponse": "L’hypophyse",
+            "mauvaise_reponse_1": "La thyroïde",
+            "mauvaise_reponse_2": "Les surrénales",
+            "mauvaise_reponse_3": "Le pancréas"
+        },
+        {
+            "question": "Où se déroule la digestion chimique des protéines ?",
+            "bonne_reponse": "Dans l’estomac",
+            "mauvaise_reponse_1": "Dans la bouche",
+            "mauvaise_reponse_2": "Dans le gros intestin",
+            "mauvaise_reponse_3": "Dans le foie"
+        },
+        {
+            "question": "Qu’est-ce qu’un écosystème ?",
+            "bonne_reponse": "Un ensemble d’êtres vivants et de leur environnement",
+            "mauvaise_reponse_1": "Un groupe d’animaux d’une même espèce",
+            "mauvaise_reponse_2": "Un type de cellule végétale",
+            "mauvaise_reponse_3": "Un phénomène météorologique"
+        },
+        {
+            "question": "Quel est le rôle des racines chez les plantes ?",
+            "bonne_reponse": "Absorber l’eau et les sels minéraux",
+            "mauvaise_reponse_1": "Produire des graines",
+            "mauvaise_reponse_2": "Faire la photosynthèse",
+            "mauvaise_reponse_3": "Attirer les pollinisateurs"
+        },
+        {
+            "question": "Quel phénomène naturel provoque les tremblements de terre ?",
+            "bonne_reponse": "Les mouvements des plaques tectoniques",
+            "mauvaise_reponse_1": "L’éruption volcanique",
+            "mauvaise_reponse_2": "Le vent fort",
+            "mauvaise_reponse_3": "La montée des eaux"
+        },
+        {
+            "question": "Comment appelle-t-on le passage de l’eau de l’état liquide à solide ?",
+            "bonne_reponse": "La solidification",
+            "mauvaise_reponse_1": "L’évaporation",
+            "mauvaise_reponse_2": "La condensation",
+            "mauvaise_reponse_3": "La fusion"
+        },
+        {
+            "question": "Quelle est la première étape du développement embryonnaire ?",
+            "bonne_reponse": "La fécondation",
+            "mauvaise_reponse_1": "L’ovulation",
+            "mauvaise_reponse_2": "La division cellulaire",
+            "mauvaise_reponse_3": "L’implantation"
+        },
+        {
+            "question": "Quelle cellule transporte l’oxygène dans le sang ?",
+            "bonne_reponse": "Le globule rouge",
+            "mauvaise_reponse_1": "Le globule blanc",
+            "mauvaise_reponse_2": "La plaquette",
+            "mauvaise_reponse_3": "Le neurone"
+        },
+        {
+            "question": "Que produit un muscle lorsqu’il se contracte ?",
+            "bonne_reponse": "Un mouvement",
+            "mauvaise_reponse_1": "Une hormone",
+            "mauvaise_reponse_2": "Du sang",
+            "mauvaise_reponse_3": "Des enzymes"
+        },
+        {
+            "question": "Où a lieu principalement la photosynthèse ?",
+            "bonne_reponse": "Dans les feuilles",
+            "mauvaise_reponse_1": "Dans les racines",
+            "mauvaise_reponse_2": "Dans les fleurs",
+            "mauvaise_reponse_3": "Dans les tiges"
+        },
+        {
+            "question": "Quel est le rôle de l’intestin grêle ?",
+            "bonne_reponse": "Absorber les nutriments",
+            "mauvaise_reponse_1": "Stocker les déchets",
+            "mauvaise_reponse_2": "Produire la bile",
+            "mauvaise_reponse_3": "Pomper le sang"
+        },
+        {
+            "question": "Comment appelle-t-on l’ensemble des chromosomes d’un individu ?",
+            "bonne_reponse": "Le caryotype",
+            "mauvaise_reponse_1": "Le génotype",
+            "mauvaise_reponse_2": "Le phénotype",
+            "mauvaise_reponse_3": "Le génome"
+        },
+        {
+            "question": "Quel est le principal gaz utilisé par les plantes pendant la photosynthèse ?",
+            "bonne_reponse": "Le dioxyde de carbone",
+            "mauvaise_reponse_1": "L’oxygène",
+            "mauvaise_reponse_2": "L’azote",
+            "mauvaise_reponse_3": "L’hydrogène"
+        }
+    ]
+    
