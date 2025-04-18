@@ -34,12 +34,12 @@ let maxquestion = 8;
 
 let randomquestionarray=[
   [0,1,2,3]//geographie
-  ,[4,5,6,7,8,4,5,8],[maxquestion+1]
+  ,[4,5,6,7,8,4,5,8],[maxquestion+2],[maxquestion+1]
   //,[4]
 ];
 let questionarraylimit=[
   3
-,6,1
+,5,1,1
 //,1
 ];
 let currentscore=0;
@@ -113,9 +113,19 @@ function lancerScriptPHP(iswriting,currentcolumnsindex2) {
     
 }
 
+function createwritenumber() {
+  
+  writeTexte.type = "number";
+  writeTexte.value="";
+  //writeTexte.placeholder = "Écris ici...";
+  container.appendChild(writeTexte);
+  
+}
+
 function createwritetext() {
   
       writeTexte.type = "text";
+      writeTexte.value="";
       //writeTexte.placeholder = "Écris ici...";
       container.appendChild(writeTexte);
       
@@ -373,7 +383,7 @@ function createquestion() {
   //console.log("ananas : "+currentquestion+" avancement : "+globalavancement)
   console.log("banana"+currentquestion+" isgood : "+(currentquestion>=4 && currentquestion<=6));
   
-  //currentquestion = maxquestion+1;
+  //currentquestion = maxquestion+2;
   if (currentquestion>=4 && currentquestion<=maxquestion) {
     
     createquestion4reponses(currentquestion+1);
@@ -421,6 +431,19 @@ function createquestion() {
       
     createboard(['envoyer'],'Compose le mot le plus long possible avec ces lettres : '+currentalphabet+' .');  
     createwritetext();
+    break;
+
+    case maxquestion+2:
+      
+      
+      
+    randomreponsearray.length = 0;
+    let numberone=seededRandomInt(3,9);
+    let numbertwo=seededRandomInt(12,69);
+    
+    createboard(['envoyer'],'Combien font '+numberone+' x '+numbertwo+' ?');  
+    randomreponsearray[0]=numbertwo*numberone;
+    createwritenumber();
     break;
       
 
@@ -750,6 +773,14 @@ function createreponse() {
             reponsetextvar = makereponsetextscrabble((iswinningscrable))
             //makereponsetext();
             createboard([iswinningscrabletext],reponsetextvar[1]);
+          
+          break;
+
+
+          case maxquestion+2:
+            let currentnumber = Number(writeTexte.value)
+            reponsetextvar = makereponsetext((currentnumber==randomreponsearray[0]));
+            createboard([randomreponsearray[0]],reponsetextvar[1]);
           
           break;
       }
