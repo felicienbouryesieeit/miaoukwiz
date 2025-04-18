@@ -18,7 +18,7 @@ const champ = document.getElementById("seednumber");
 const titre = document.getElementById("titre");
 
 const img = document.createElement("img");
-
+const writeTexte = document.createElement("input"); 
 
 let avancement=0;
 let globalavancement=0;
@@ -30,21 +30,25 @@ let currentsection = 0;
 let currentquestion=1;
 let allcolumnsname= ["translations","population","area","capital","flag_png","*","*","*","*","*"];//
 let allcolumns= [];
+let maxquestion = 8;
+
 let randomquestionarray=[
   [0,1,2,3]//geographie
-  ,[4,5,6,7,8,4,5,6,7,8]
+  ,[4,5,6,7,8,4,5,8],[maxquestion+1]
   //,[4]
 ];
 let questionarraylimit=[
   3
-,7
+,6,1
 //,1
 ];
 let currentscore=0;
 let scoremax = 0;
 let customtablelist=[[5,"quiz_histoire"],[6,"quiz_svt"],[7,"quiz_physique"],[8,"quiz_culture"],[9,"quiz_français"]];
+let lexique;
 
 let isinquestions4=false;
+
 
 
 
@@ -109,12 +113,21 @@ function lancerScriptPHP(iswriting,currentcolumnsindex2) {
     
 }
 
+function createwritetext() {
+  
+      writeTexte.type = "text";
+      //writeTexte.placeholder = "Écris ici...";
+      container.appendChild(writeTexte);
+      
+}
+
 function createimage(imagescript) {
  
     img.src = imagescript;
     img.alt = "Drapeau";
     img.width = 320;
     drapeau.appendChild(img);
+    
 }
 
 function clearimage() {
@@ -126,6 +139,7 @@ function clearimage() {
 function createboard(boutontextes,questiontexte) {
   
     container.innerHTML = "";
+    
 
     container.style.display = "flex";
     container.style.flexDirection = "column";
@@ -149,13 +163,15 @@ function createboard(boutontextes,questiontexte) {
     };
     
       container.appendChild(bouton);
-    
+      
+      
+
       }
   }
 
 
 
-
+  
 
 
 
@@ -166,6 +182,8 @@ function createboard(boutontextes,questiontexte) {
    champ.value=Math.floor(Math.random()*100000000000) ;
     
     //beginmostpeople();
+
+    beginlexique();
     beginallcolumns();
     
 
@@ -174,7 +192,35 @@ function createboard(boutontextes,questiontexte) {
   }
   
   beginplay()
-  
+
+  function beginlexique() {
+    fetch('newlexique.json')
+    .then(response => {
+      if (!response.ok) throw new Error("Erreur HTTP : " + response.status);
+      return response.json();
+    })
+    .then(data => {
+      //lexique=data;
+      
+      //console.log("Contenu JSON :", (lexique[0]));
+      //const firstLine = data; // 1ère ligne
+      //const firstKey = Object.keys(firstLine)[0]; // 1ère clé
+      //const firstValue = firstLine[firstKey]; // 1ère valeur
+      /*
+      const firstValues = data.map(obj => {
+        const firstKey = Object.keys(obj)[0];
+        return obj[firstKey];
+      });*/
+      lexique=data
+      console.log("1er élément de la 1ère ligne :", lexique);
+
+      
+    })
+    .catch(error => {
+      console.error("Erreur de chargement JSON :", error);
+    });
+  }
+
   function randomdatavalue(i) {
     return seededRandomInt(1,allcolumns[i].length-1)
   }
@@ -191,6 +237,7 @@ function createboard(boutontextes,questiontexte) {
       if (index==(allcolumnsname.length-1)) {
         canlaunchgame=true;
       }
+
 
       setcurrenttable(index);
 
@@ -325,7 +372,10 @@ function createquestion() {
   //currentquestion=4;
   //console.log("ananas : "+currentquestion+" avancement : "+globalavancement)
   console.log("banana"+currentquestion+" isgood : "+(currentquestion>=4 && currentquestion<=6));
-  if (currentquestion>=4 && currentquestion<=8) {
+  
+  //currentquestion=maxquestion+1;
+  //currentquestion = maxquestion+1;
+  if (currentquestion>=4 && currentquestion<=maxquestion) {
     
     createquestion4reponses(currentquestion+1);
   } 
@@ -364,7 +414,15 @@ function createquestion() {
       
       break;
 
-
+      
+    case maxquestion+1:
+      let currentalphabet = createalphabet();
+      
+      //console.log();
+      
+    createboard(['envoyer'],'Compose le mot le plus long possible avec ces lettres : '+currentalphabet+' .');  
+    createwritetext();
+    break;
       
 
       /*
@@ -388,6 +446,184 @@ function createquestion() {
   //console.log("oui");
   avancement=1;
   globalavancement+=1;
+}
+
+function createalphabet() {
+  
+  const alphabet = "abcdefghijklmnopqrstuvwxyz";
+  
+  
+  let lettresScrabble = [
+    // 9 x A
+    "A", "A", "A", "A", "A", "A", "A", "A", "A",
+    // 2 x B
+    "B", "B",
+    // 2 x C
+    "C", "C",
+    // 3 x D
+    "D", "D", "D",
+    // 15 x E
+    "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E", "E",
+    // 2 x F
+    "F", "F",
+    // 2 x G
+    "G", "G",
+    // 2 x H
+    "H", "H",
+    // 8 x I
+    "I", "I", "I", "I", "I", "I", "I", "I",
+    // 1 x J
+    "J",
+    // 1 x K
+    "K",
+    // 5 x L
+    "L", "L", "L", "L", "L",
+    // 3 x M
+    "M", "M", "M",
+    // 6 x N
+    "N", "N", "N", "N", "N", "N",
+    // 6 x O
+    "O", "O", "O", "O", "O", "O",
+    // 2 x P
+    "P", "P",
+    // 1 x Q
+    "Q",
+    // 6 x R
+    "R", "R", "R", "R", "R", "R",
+    // 6 x S
+    "S", "S", "S", "S", "S", "S",
+    // 6 x T
+    "T", "T", "T", "T", "T", "T",
+    // 6 x U
+    "U", "U", "U", "U", "U", "U",
+    // 2 x V
+    "V", "V",
+    // 1 x W
+    "W",
+    // 1 x X
+    "X",
+    // 1 x Y
+    "Y",
+    // 1 x Z
+    "Z",
+  ];
+  
+
+
+
+
+  
+
+ // console.log("scrabble");
+ // console.log(trierlettres(lettresScrabble));
+
+  shuffle(lettresScrabble);
+  let lettresScrabble2=[];
+  
+  
+
+  for (let i = 0; i < 10; i++) {
+  lettresScrabble2.push(lettresScrabble[i]);
+  };
+
+  randomreponsearray.length = 0;
+  randomreponsearray[0]=trierlettres(lettresScrabble2)
+  console.log(randomreponsearray[0]);
+
+  return lettresScrabble2;
+}
+
+ function trierlettres(lettresScrabble) {
+  let lettrestriées = [];
+
+  lettresScrabble.forEach((currentscrabble, index1) => {
+    //console.log("oui"+currentscrabble);
+    let currentscrabble2 = currentscrabble.toLowerCase();
+        let havecurrentlettre = false;
+        lettrestriées.forEach((currentarraylettre, index3) => {
+          
+          currentarraylettre.forEach((currentlettre, index4) => {
+            
+            if (currentscrabble2==currentlettre) {
+              if (havecurrentlettre==false)  {
+              //console.log("push"+currentscrabble);
+              currentarraylettre.push(currentscrabble2);
+              havecurrentlettre = true;
+            }
+            }
+          });
+          
+        });
+        if (havecurrentlettre==false)  {
+          lettrestriées.push([currentscrabble2])
+        }              
+      
+  });
+
+  return lettrestriées;
+ }
+
+ function motexiste(beginmot) {
+  let motexistebool = false;
+  
+  lexique.forEach((currentmot, index1) => {
+    if (motexistebool==false) {
+    if (enleverAccents(String(currentmot))==enleverAccents(String(beginmot))) {
+      //console.log("mot"+enleverAccents(String(currentmot))+ "mot 2 "+String(currentmot));
+      console.log("mot :"+currentmot+"existe at index"+index1);
+      motexistebool = true;
+    }}
+  });
+
+  return motexistebool;
+
+ }
+
+ function respectelettres(mot) {
+  mot = enleverAccents(mot);
+  let motarray = trierlettres(mot.split(""));
+  console.log(motarray);
+  console.log(randomreponsearray[0]);
+  //let isrespecting = false;
+  let outsideletter = false;
+  let toomuchletters = false;
+  motarray.forEach((currentlettrearraymot, index) => {
+    //console.log(currentlettrearraymot);
+    currentlettrearraymot.forEach((currentlettremot, index2) => {
+      //console.log(currentlettrearray);
+      //if currentlettre
+    let outsideletter2 = true;
+    
+      randomreponsearray[0].forEach((currentlettrearrayalphabet, index3) => {
+        currentlettrearrayalphabet.forEach((currentlettrealphabet, index4) => {
+          if (currentlettremot==currentlettrealphabet) {
+            outsideletter2 = false;
+            //console.log("alphabet length : "+currentlettrearrayalphabet.length+" mot length"+ currentlettrearraymot.length);
+            if (currentlettrearrayalphabet.length<currentlettrearraymot.length) {
+              toomuchletters = true;
+            }
+          }
+
+          if (currentlettremot==" ") {
+            outsideletter2 = false;
+          }
+        });
+      });
+    
+    if (outsideletter2==true) {
+      outsideletter=true;
+    }
+    });
+  });
+
+console.log("outside letter : "+outsideletter);
+console.log("too much letters : "+toomuchletters);
+return [outsideletter,toomuchletters]
+ };
+
+
+ function enleverAccents(texte) {
+  return texte.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
  function onclick(boutonindex) {
@@ -487,6 +723,36 @@ function createreponse() {
           case 4:
           
           break;
+
+          case maxquestion+1:
+            //console.log("respecte lettres : ", );
+            //console.log("mot existe : "+ motexiste(writeTexte.value));
+            let respectevar = respectelettres(writeTexte.value);
+            let existevar = motexiste(writeTexte.value);
+            let iswinningscrable=true;
+            let iswinningscrabletext= "le mot est bon";
+
+            if (respectevar[0]==true || respectevar[1]==true) {
+              iswinningscrabletext= "une lettre n'était pas dans la liste";
+              iswinningscrable=false;
+            };
+
+            if (existevar == false) {
+              iswinningscrabletext= "le mot n'existe pas";
+              iswinningscrable=false;
+            };
+
+            if (iswinningscrable==true) {
+              console.log("score"+currentscore);
+              currentscore+=(writeTexte.value.length*0.5)
+              console.log("scorebis"+currentscore);
+            }
+
+            reponsetextvar = makereponsetextscrabble((iswinningscrable))
+            //makereponsetext();
+            createboard([iswinningscrabletext],reponsetextvar[1]);
+          
+          break;
       }
       avancement=2;
       afterreponse();
@@ -495,14 +761,28 @@ function createreponse() {
 
 }
 
+function makereponsetextscrabble(istrue) {
+  let reponsevar = makereponsetext2(istrue);
+  return reponsevar;
+}
 function makereponsetext(istrue) {
+  let reponsevar = makereponsetext2(istrue);
+  if (reponsevar[0]==true) {
+    currentscore+=2;
+  }
+  scoremax+=2;
+  return reponsevar;
+}
+function makereponsetext2(istrue){
   let victoiretext = "perdu"
   
   if (istrue==true) {
-    currentscore+=1;
+    
     victoiretext = "gagné";
   } 
-  scoremax+=1;
+
+  
+  console.log("consolemax"+scoremax);
   return [istrue,victoiretext];
 }
 
@@ -533,7 +813,7 @@ function setcurrenttable(i) {
 
   
 
-  console.log("toto")
+  //console.log("toto")
   customtablelist.forEach((customtable, index) => {
     
     if (customtable[0]==i) {
