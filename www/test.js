@@ -711,6 +711,7 @@ return [outsideletter,toomuchletters]
 function createreponse() {
       let reponsetextvar
       if (isinquestions4) {
+        isinquestions4=false;
         reponsetextvar = makereponsetext((randomreponsearray[4]==randomreponsearray[currentboutoncliqué]));
         createboard([randomreponsearray[4]],reponsetextvar[1]);
       }
@@ -800,7 +801,8 @@ function makereponsetext(istrue) {
   if (reponsevar[0]==true) {
     currentscore+=2;
   }
-  scoremax+=2;
+  
+  console.log("consolemax"+scoremax);
   return reponsevar;
 }
 function makereponsetext2(istrue){
@@ -810,9 +812,10 @@ function makereponsetext2(istrue){
     
     victoiretext = "gagné";
   } 
+  scoremax+=2;
 
   
-  console.log("consolemax"+scoremax);
+  
   return [istrue,victoiretext];
 }
 
