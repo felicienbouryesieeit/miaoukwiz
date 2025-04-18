@@ -30,6 +30,7 @@ seed :
   <div id="monTexte" class="questiontext">chargement...</div>
   <div class="boutons">
     <div id="button-container"></div>
+    
   </div>  
   
 </div>

@@ -10,3 +10,20 @@ il y aura plusieurs catégories comme géographie, histoire, culture.
 La première catégorie est géographie. Le site utilise une base de donnée stockée sur phpmyadmin qui contient des informations sur tout les pays du monde afin de générer les questions. 
 
 La pluspart des autres catégories utiliseront d'autre bases de données pour générer leurs questions aussi.
+
+
+
+
+
+
+sources : 
+
+-databases:
+http://www.lexique.org/
+https://restcountries.com/v3.1/all
+
+-image :
+https://www.vecteezy.com/vector-art/27667572-cat-icon-symbol-isolated-vector-illustration
+
+-fonts:
+https://fonts.google.com/
